@@ -270,56 +270,6 @@
       margin-top: 4px;
     }
 
-    .search-row {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      margin-bottom: 24px;
-    }
-
-    .search-box {
-      flex: 1;
-      height: 56px;
-      border-radius: 999px;
-      background: rgba(255,255,255,0.86);
-      border: 1px solid #e2e5ee;
-      box-shadow: 0 8px 18px rgba(31, 40, 75, 0.06);
-      display: flex;
-      align-items: center;
-      padding: 0 18px;
-      gap: 12px;
-      color: #70798c;
-    }
-
-    .search-box svg { width: 23px; height: 23px; flex: 0 0 auto; }
-
-    .search-box input {
-      width: 100%;
-      border: 0;
-      outline: none;
-      font: inherit;
-      color: var(--text);
-      background: transparent;
-      font-size: 15px;
-    }
-
-    .search-box input::placeholder { color: #8990a0; }
-
-    .filter-btn {
-      width: 56px;
-      height: 56px;
-      border: 0;
-      border-radius: 50%;
-      background: linear-gradient(135deg, rgba(119, 88, 246, 0.20), rgba(119, 88, 246, 0.10));
-      color: var(--text);
-      box-shadow: var(--shadow-soft);
-      display: grid;
-      place-items: center;
-      cursor: pointer;
-    }
-
-    .filter-btn svg { width: 24px; height: 24px; }
-
     .section-title {
       font-size: 24px;
       font-weight: 800;
@@ -610,24 +560,6 @@
             <strong id="totalDuplicadas">0</strong>
             <span>Duplicatas</span>
           </article>
-        </section>
-
-        <section class="search-row" aria-label="Busca e filtro">
-          <label class="search-box">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="11" cy="11" r="8"/>
-              <path d="m21 21-4.35-4.35"/>
-            </svg>
-            <input type="search" placeholder="Buscar coleção..." />
-          </label>
-
-          <button class="filter-btn" aria-label="Filtrar coleÃ§Ãµes">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M4 6h16"/>
-              <path d="M7 12h10"/>
-              <path d="M10 18h4"/>
-            </svg>
-          </button>
         </section>
 
         <h2 class="section-title">Por coleção</h2>
