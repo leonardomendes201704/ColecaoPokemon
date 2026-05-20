@@ -499,6 +499,39 @@
       line-height: 1;
     }
 
+    .favorite-card-btn {
+      position: absolute;
+      left: 12px;
+      top: 112px;
+      z-index: 3;
+      width: 30px;
+      height: 30px;
+      border: 0;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      color: #6f7688;
+      background: rgba(255,255,255,.9);
+      box-shadow: 0 8px 18px rgba(13, 23, 51, .18);
+      cursor: pointer;
+    }
+
+    .favorite-card-btn.is-favorite {
+      color: #fff;
+      background: linear-gradient(135deg, #ff5d7d, #7758f6);
+    }
+
+    .favorite-card-btn svg {
+      width: 17px;
+      height: 17px;
+      fill: none;
+      stroke-width: 2.5;
+    }
+
+    .favorite-card-btn.is-favorite svg {
+      fill: currentColor;
+    }
+
     .quantity-badge {
       position: absolute;
       left: 8px;
@@ -791,7 +824,7 @@
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="14" height="14" rx="2"/><path d="M7 5V3h14v14h-2"/></svg>
           <span>Cole&ccedil;&otilde;es</span>
         </a>
-        <a class="nav-item disabled" href="#" aria-disabled="true" tabindex="-1">
+        <a class="nav-item" href="favoritos.html">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 21-1.45-1.32C5.4 15.03 2 11.94 2 8.15 2 5.05 4.42 2.65 7.5 2.65c1.74 0 3.41.81 4.5 2.08a6.02 6.02 0 0 1 4.5-2.08c3.08 0 5.5 2.4 5.5 5.5 0 3.79-3.4 6.88-8.55 11.53L12 21z"/></svg>
           <span>Favoritas</span>
         </a>

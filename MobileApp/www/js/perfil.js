@@ -5,10 +5,15 @@
     return location.pathname.includes("/Templates/") ? "../index.html" : "index.html";
   }
 
+  function favoritesPath() {
+    return location.pathname.includes("/Templates/") ? "favoritos.html" : "Templates/favoritos.html";
+  }
+
   function bindNavigation() {
-    document.querySelectorAll("[data-nav='home'], [data-nav='collections']").forEach((item) => {
+    document.querySelectorAll("[data-nav]").forEach((item) => {
       item.addEventListener("click", () => {
-        window.location.href = indexPath();
+        const target = item.dataset.nav === "favorites" ? favoritesPath() : indexPath();
+        window.location.href = target;
       });
     });
   }

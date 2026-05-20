@@ -93,9 +93,13 @@
     document.querySelectorAll("[data-nav]").forEach((button) => {
       button.addEventListener("click", () => {
         const inTemplates = location.pathname.includes("/Templates/");
-        const target = button.dataset.nav === "profile"
-          ? `${inTemplates ? "" : "Templates/"}perfil.html`
-          : `${inTemplates ? "../" : ""}index.html`;
+        const target = {
+          profile: `${inTemplates ? "" : "Templates/"}perfil.html`,
+          favorites: `${inTemplates ? "" : "Templates/"}favoritos.html`,
+          home: `${inTemplates ? "../" : ""}index.html`,
+          collections: `${inTemplates ? "../" : ""}index.html`
+        }[button.dataset.nav];
+        if (!target) return;
         window.location.href = target;
       });
     });

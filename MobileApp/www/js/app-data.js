@@ -83,6 +83,7 @@
         rarity: rarities[index % rarities.length],
         quantity,
         owned: quantity > 0,
+        favorite: false,
         image: collection.artFolder ? `cartas/${collection.artFolder}/${number}.png` : null,
         marketPrice: null,
         marketCurrency: null,
@@ -96,6 +97,7 @@
     if (typeof card.quantity !== "number") {
       card.quantity = card.owned ? 1 : 0;
     }
+    card.favorite = Boolean(card.favorite);
     card.owned = card.quantity > 0;
     return card;
   }
@@ -265,6 +267,24 @@
       return cardsFor(state, collectionId);
     },
 
+    async listFavoriteCards() {
+      const state = readState();
+      return state.collections.flatMap((collection) => {
+        const collectionWithStats = collectionStats(state, collection);
+        return cardsFor(state, collection.id)
+          .filter((card) => card.favorite)
+          .map((card) => ({
+            ...card,
+            collectionId: collection.id,
+            collectionName: collection.name,
+            collectionTheme: collection.theme,
+            collectionImage: collection.image,
+            collectionOwned: collectionWithStats.owned,
+            collectionTotal: collectionWithStats.total
+          }));
+      });
+    },
+
     async refreshCollectionPrices(collectionId) {
       const state = readState();
       const collection = state.collections.find((item) => item.id === collectionId);
@@ -334,6 +354,17 @@
       if (card) {
         card.quantity = Math.max(card.quantity - 1, 0);
         card.owned = card.quantity > 0;
+        writeState(state);
+      }
+      return card;
+    },
+
+    async toggleCardFavorite(collectionId, cardId) {
+      const state = readState();
+      const cards = cardsFor(state, collectionId);
+      const card = cards.find((item) => item.id === cardId);
+      if (card) {
+        card.favorite = !card.favorite;
         writeState(state);
       }
       return card;
