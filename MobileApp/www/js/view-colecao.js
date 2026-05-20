@@ -302,7 +302,6 @@
     article.innerHTML = `
       <button class="card-art art-${(index % 9) + 1}" type="button" aria-label="Abrir ${card.name}">
         ${artContent}
-        <span class="owned-badge ${card.owned ? "" : "missing"}">${card.owned ? "✓" : ""}</span>
         ${quantityBadge}
       </button>
       ${favoriteButton}

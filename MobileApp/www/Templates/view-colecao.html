@@ -329,22 +329,6 @@
     .art-8 { background: linear-gradient(135deg, rgba(37,99,255,.18), rgba(79,176,109,.14)); }
     .art-9 { background: linear-gradient(135deg, rgba(119,88,246,.18), rgba(246,170,36,.16)); }
 
-    .owned-badge {
-      position: absolute;
-      top: 8px;
-      right: 8px;
-      width: 22px;
-      height: 22px;
-      border-radius: 50%;
-      background: var(--green);
-      color: #fff;
-      display: grid;
-      place-items: center;
-      box-shadow: 0 7px 14px rgba(79,176,109,.28);
-    }
-    .owned-badge.missing { background: rgba(255,255,255,.58); color: rgba(13,23,51,.38); border: 1px dashed rgba(13,23,51,.22); box-shadow: none; }
-    .owned-badge svg { width: 13px; height: 13px; }
-
     .card-info { padding: 0 9px 10px; }
     .card-number { color: var(--muted); font-size: 10px; font-weight: 800; margin-bottom: 2px; }
     .card-name { font-size: 12px; font-weight: 800; letter-spacing: -.03em; line-height: 1.15; min-height: 28px; }
@@ -491,12 +475,6 @@
       font-weight: 900;
       letter-spacing: 0;
       color: rgba(13, 23, 51, .42);
-    }
-
-    .owned-badge {
-      font-size: 13px;
-      font-weight: 900;
-      line-height: 1;
     }
 
     .favorite-card-btn {
@@ -742,79 +720,7 @@
           <h3 class="section-title">Cartas da cole&ccedil;&atilde;o</h3>
         </div>
 
-        <section class="cards-grid" aria-label="Lista de cartas da coleÃ§Ã£o">
-          <article class="pokemon-card">
-            <div class="card-art art-1" data-image-placeholder="card-001">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="4"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
-              <span class="owned-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m20 6-11 11-5-5"/></svg></span>
-            </div>
-            <div class="card-info"><p class="card-number">001</p><h4 class="card-name" data-text-placeholder="card-name">Carta Alfa</h4><span class="rarity rare">RARA</span></div>
-          </article>
-
-          <article class="pokemon-card">
-            <div class="card-art art-2" data-image-placeholder="card-002">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="4"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
-              <span class="owned-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m20 6-11 11-5-5"/></svg></span>
-            </div>
-            <div class="card-info"><p class="card-number">002</p><h4 class="card-name" data-text-placeholder="card-name">Carta Beta</h4><span class="rarity secret">SECRETA</span></div>
-          </article>
-
-          <article class="pokemon-card">
-            <div class="card-art art-3" data-image-placeholder="card-003">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="4"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
-              <span class="owned-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m20 6-11 11-5-5"/></svg></span>
-            </div>
-            <div class="card-info"><p class="card-number">003</p><h4 class="card-name" data-text-placeholder="card-name">Carta Gama</h4><span class="rarity common">COMUM</span></div>
-          </article>
-
-          <article class="pokemon-card">
-            <div class="card-art art-4" data-image-placeholder="card-004">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="4"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
-              <span class="owned-badge missing"></span>
-            </div>
-            <div class="card-info"><p class="card-number">004</p><h4 class="card-name" data-text-placeholder="card-name">Carta Delta</h4><span class="rarity">INCOMUM</span></div>
-          </article>
-
-          <article class="pokemon-card">
-            <div class="card-art art-5" data-image-placeholder="card-005">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="4"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
-              <span class="owned-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m20 6-11 11-5-5"/></svg></span>
-            </div>
-            <div class="card-info"><p class="card-number">005</p><h4 class="card-name" data-text-placeholder="card-name">Carta Ã‰psilon</h4><span class="rarity common">COMUM</span></div>
-          </article>
-
-          <article class="pokemon-card">
-            <div class="card-art art-6" data-image-placeholder="card-006">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="4"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
-              <span class="owned-badge missing"></span>
-            </div>
-            <div class="card-info"><p class="card-number">006</p><h4 class="card-name" data-text-placeholder="card-name">Carta Zeta</h4><span class="rarity epic">Ã‰PICA</span></div>
-          </article>
-
-          <article class="pokemon-card">
-            <div class="card-art art-7" data-image-placeholder="card-007">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="4"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
-              <span class="owned-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m20 6-11 11-5-5"/></svg></span>
-            </div>
-            <div class="card-info"><p class="card-number">007</p><h4 class="card-name" data-text-placeholder="card-name">Carta Eta</h4><span class="rarity rare">RARA</span></div>
-          </article>
-
-          <article class="pokemon-card">
-            <div class="card-art art-8" data-image-placeholder="card-008">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="4"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
-              <span class="owned-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m20 6-11 11-5-5"/></svg></span>
-            </div>
-            <div class="card-info"><p class="card-number">008</p><h4 class="card-name" data-text-placeholder="card-name">Carta Teta</h4><span class="rarity">INCOMUM</span></div>
-          </article>
-
-          <article class="pokemon-card">
-            <div class="card-art art-9" data-image-placeholder="card-009">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="4"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
-              <span class="owned-badge missing"></span>
-            </div>
-            <div class="card-info"><p class="card-number">009</p><h4 class="card-name" data-text-placeholder="card-name">Carta Iota</h4><span class="rarity epic">Ã‰PICA</span></div>
-          </article>
-        </section>
+        <section class="cards-grid" aria-label="Lista de cartas da coleÃ§Ã£o"></section>
       </div>
 
       <nav class="nav" aria-label="Navegação principal">
