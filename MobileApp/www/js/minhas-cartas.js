@@ -11,9 +11,35 @@
     return `${prefix}view-colecao.html?collection=${encodeURIComponent(collectionId)}`;
   }
 
-  function setText(id, value) {
+  function countUp(id, targetValue) {
     const node = document.getElementById(id);
-    if (node) node.textContent = value;
+    if (!node) return;
+
+    const target = Number(targetValue) || 0;
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    if (reduceMotion || target === 0) {
+      node.textContent = formatter.format(target);
+      return;
+    }
+
+    const duration = 700;
+    const start = performance.now();
+
+    function tick(now) {
+      const progress = Math.min((now - start) / duration, 1);
+      const eased = 1 - Math.pow(1 - progress, 3);
+      node.textContent = formatter.format(Math.round(target * eased));
+
+      if (progress < 1) {
+        requestAnimationFrame(tick);
+      } else {
+        node.textContent = formatter.format(target);
+      }
+    }
+
+    node.textContent = formatter.format(0);
+    requestAnimationFrame(tick);
   }
 
   function collectionCard(collection) {
@@ -52,9 +78,9 @@
       store.listCollections()
     ]);
 
-    setText("totalCartas", formatter.format(summary.totalCards));
-    setText("totalColecoes", formatter.format(summary.totalCollections));
-    setText("totalDuplicadas", formatter.format(summary.duplicated));
+    countUp("totalCartas", summary.totalCards);
+    countUp("totalColecoes", summary.totalCollections);
+    countUp("totalDuplicadas", summary.duplicated);
 
     const list = document.querySelector(".collections");
     if (list) {
