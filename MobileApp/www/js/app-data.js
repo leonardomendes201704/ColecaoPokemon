@@ -75,9 +75,7 @@
     const total = collection.artCount || Math.min(collection.total, 24);
     return Array.from({ length: total }, (_, index) => {
       const number = String(index + 1).padStart(3, "0");
-      const owned = index < collection.owned;
-      const hasDuplicate = owned && index < collection.duplicated;
-      const quantity = owned ? (hasDuplicate ? 2 : 1) : 0;
+      const quantity = 0;
       return {
         id: `${collection.id}-${number}`,
         number,
