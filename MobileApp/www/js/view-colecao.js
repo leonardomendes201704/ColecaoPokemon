@@ -250,7 +250,7 @@
     const actions = modal.querySelector(".card-modal-actions");
     image.src = card.image ? cardImagePath(card.image) : "";
     image.alt = card.name;
-    updateText(".card-modal-number", `#${card.number} • ${card.rarity}`);
+    updateText(".card-modal-number", `${card.number} • ${card.rarity}`);
     updateText(".card-modal-title", card.name);
     updateText(".card-modal-price", formatPriceDetail(card));
     updateText(".card-modal-status", card.quantity > 0 ? `${card.quantity} na coleção` : "Nova carta");
@@ -287,7 +287,7 @@
     article.className = "pokemon-card";
     const artContent = card.owned && card.image
       ? `<img src="${cardImagePath(card.image)}" alt="${card.name}">`
-      : `<span class="card-art-number">#${card.number}</span>`;
+      : `<span class="card-art-number">${card.number}</span>`;
     const quantityBadge = card.quantity > 1 ? `<span class="quantity-badge">x${card.quantity}</span>` : "";
     article.innerHTML = `
       <button class="card-art art-${(index % 9) + 1}" type="button" aria-label="Abrir ${card.name}">
