@@ -90,6 +90,25 @@
     return `${priceInBrl(card)} (${original})`;
   }
 
+  function cardValueInBrl(card) {
+    if (!card.marketPrice || !card.marketCurrency) return null;
+    const rate = exchangeRates[card.marketCurrency];
+    return rate ? card.marketPrice * rate : card.marketPrice;
+  }
+
+  function collectionUniqueValue(cards) {
+    return cards
+      .filter((card) => card.quantity > 0)
+      .reduce((total, card) => total + (cardValueInBrl(card) || 0), 0);
+  }
+
+  function formatBrlValue(value) {
+    return new Intl.NumberFormat("pt-BR", {
+      style: "currency",
+      currency: "BRL"
+    }).format(value);
+  }
+
   function updateText(selector, value) {
     const node = document.querySelector(selector);
     if (node) node.textContent = value;
@@ -307,6 +326,7 @@
     updateText("[data-text-placeholder='owned-count']", collection.owned);
     updateText("[data-text-placeholder='missing-count']", collection.total - collection.owned);
     updateText("[data-text-placeholder='rare-count']", collection.rare);
+    updateText("[data-text-placeholder='collection-value']", formatBrlValue(collectionUniqueValue(cards)));
 
     const cover = document.querySelector("[data-image-placeholder='collection-cover']");
     if (cover) {
