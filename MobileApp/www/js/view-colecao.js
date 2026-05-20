@@ -118,6 +118,10 @@
     return /rare|rara|secreta|secret|epic|épica|illustration|ultra|special/i.test(card.rarity || "");
   }
 
+  function ownedRareCount(cards) {
+    return cards.filter((card) => card.quantity > 0 && isRareCard(card)).length;
+  }
+
   function filteredCards(cards) {
     const term = searchTerm.trim().toLocaleLowerCase("pt-BR");
     return cards.filter((card) => {
@@ -340,7 +344,7 @@
     updateText("[data-text-placeholder='completion-count']", `${collection.owned} / ${collection.total} cartas`);
     updateText("[data-text-placeholder='owned-count']", collection.owned);
     updateText("[data-text-placeholder='missing-count']", collection.total - collection.owned);
-    updateText("[data-text-placeholder='rare-count']", collection.rare);
+    updateText("[data-text-placeholder='rare-count']", ownedRareCount(cards));
     updateText("[data-text-placeholder='collection-value']", formatBrlValue(collectionUniqueValue(cards)));
 
     const cover = document.querySelector("[data-image-placeholder='collection-cover']");
