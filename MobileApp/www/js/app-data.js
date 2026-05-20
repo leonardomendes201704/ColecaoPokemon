@@ -243,8 +243,8 @@
       getDeviceId();
       const state = readState();
       return collectionsWithStats(state).reduce((summary, collection) => ({
-        totalCards: summary.totalCards + collection.total,
-        totalCollections: summary.totalCollections + 1,
+        totalCards: summary.totalCards + collection.owned,
+        totalCollections: summary.totalCollections + (collection.owned > 0 ? 1 : 0),
         duplicated: summary.duplicated + collection.duplicated
       }), { totalCards: 0, totalCollections: 0, duplicated: 0 });
     },
