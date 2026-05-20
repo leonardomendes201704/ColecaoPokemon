@@ -272,7 +272,7 @@
       return state.collections.flatMap((collection) => {
         const collectionWithStats = collectionStats(state, collection);
         return cardsFor(state, collection.id)
-          .filter((card) => card.favorite)
+          .filter((card) => card.favorite && card.quantity > 0)
           .map((card) => ({
             ...card,
             collectionId: collection.id,
@@ -330,6 +330,7 @@
       if (card) {
         card.quantity = card.quantity > 0 ? 0 : 1;
         card.owned = card.quantity > 0;
+        if (!card.owned) card.favorite = false;
         writeState(state);
       }
       return card;
@@ -354,6 +355,7 @@
       if (card) {
         card.quantity = Math.max(card.quantity - 1, 0);
         card.owned = card.quantity > 0;
+        if (!card.owned) card.favorite = false;
         writeState(state);
       }
       return card;
@@ -363,7 +365,7 @@
       const state = readState();
       const cards = cardsFor(state, collectionId);
       const card = cards.find((item) => item.id === cardId);
-      if (card) {
+      if (card && card.quantity > 0) {
         card.favorite = !card.favorite;
         writeState(state);
       }

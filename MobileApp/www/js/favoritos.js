@@ -10,13 +10,57 @@
     return location.pathname.includes("/Templates/") ? "perfil.html" : "Templates/perfil.html";
   }
 
-  function collectionPath(collectionId) {
-    const prefix = location.pathname.includes("/Templates/") ? "" : "Templates/";
-    return `${prefix}view-colecao.html?collection=${encodeURIComponent(collectionId)}`;
-  }
-
   function cardImagePath(fileName) {
     return `${location.pathname.includes("/Templates/") ? "../" : ""}${fileName}`;
+  }
+
+  function ensureModal() {
+    let modal = document.querySelector(".card-modal");
+    if (modal) return modal;
+
+    modal = document.createElement("div");
+    modal.className = "card-modal";
+    modal.setAttribute("aria-hidden", "true");
+    modal.innerHTML = `
+      <div class="card-modal-backdrop" data-close-card-modal></div>
+      <section class="card-modal-panel" role="dialog" aria-modal="true" aria-labelledby="favoriteCardModalTitle">
+        <button class="card-modal-close" type="button" aria-label="Fechar" data-close-card-modal>×</button>
+        <img class="card-modal-image" alt="">
+        <div class="card-modal-info">
+          <p class="card-modal-number"></p>
+          <h2 id="favoriteCardModalTitle" class="card-modal-title"></h2>
+          <p class="card-modal-meta"></p>
+        </div>
+      </section>
+    `;
+    document.body.appendChild(modal);
+    modal.querySelectorAll("[data-close-card-modal]").forEach((button) => {
+      button.addEventListener("click", closeCardModal);
+    });
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") closeCardModal();
+    });
+    return modal;
+  }
+
+  function closeCardModal() {
+    const modal = document.querySelector(".card-modal");
+    if (!modal) return;
+    modal.classList.remove("is-open");
+    modal.setAttribute("aria-hidden", "true");
+  }
+
+  function openCardModal(card) {
+    const modal = ensureModal();
+    const image = modal.querySelector(".card-modal-image");
+    image.src = card.image ? cardImagePath(card.image) : "";
+    image.alt = card.name;
+    modal.querySelector(".card-modal-number").textContent = `${card.number} • ${card.rarity}`;
+    modal.querySelector(".card-modal-title").textContent = card.name;
+    modal.querySelector(".card-modal-meta").textContent = card.collectionName;
+    modal.classList.add("is-open");
+    modal.setAttribute("aria-hidden", "false");
+    modal.querySelector(".card-modal-close").focus();
   }
 
   function bindNavigation() {
@@ -40,7 +84,7 @@
       : `<span>${card.number}</span>`;
 
     article.innerHTML = `
-      <button class="favorite-open" type="button" aria-label="Abrir ${card.collectionName}">
+      <button class="favorite-open" type="button" aria-label="Visualizar ${card.name}">
         <div class="favorite-art">${art}</div>
         <div class="favorite-info">
           <p class="favorite-number">${card.number}</p>
@@ -54,7 +98,7 @@
     `;
 
     article.querySelector(".favorite-open").addEventListener("click", () => {
-      window.location.href = collectionPath(card.collectionId);
+      openCardModal(card);
     });
     article.querySelector(".favorite-remove").addEventListener("click", async () => {
       await store.toggleCardFavorite(card.collectionId, card.id);

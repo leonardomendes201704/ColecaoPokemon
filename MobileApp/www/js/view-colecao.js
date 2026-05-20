@@ -286,6 +286,11 @@
     const article = document.createElement("article");
     article.className = "pokemon-card";
     const favoriteLabel = card.favorite ? "Remover dos favoritos" : "Adicionar aos favoritos";
+    const favoriteButton = card.owned ? `
+      <button class="favorite-card-btn ${card.favorite ? "is-favorite" : ""}" type="button" aria-label="${favoriteLabel}" title="${favoriteLabel}">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 1 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8Z"/></svg>
+      </button>
+    ` : "";
     const artContent = card.owned && card.image
       ? `<img src="${cardImagePath(card.image)}" alt="${card.name}">`
       : `<span class="card-art-number">${card.number}</span>`;
@@ -296,9 +301,7 @@
         <span class="owned-badge ${card.owned ? "" : "missing"}">${card.owned ? "✓" : ""}</span>
         ${quantityBadge}
       </button>
-      <button class="favorite-card-btn ${card.favorite ? "is-favorite" : ""}" type="button" aria-label="${favoriteLabel}" title="${favoriteLabel}">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 1 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8Z"/></svg>
-      </button>
+      ${favoriteButton}
       <div class="card-info">
         <p class="card-number">${card.number}</p>
         <h4 class="card-name">${card.name}</h4>
@@ -311,11 +314,14 @@
     article.querySelector("button").addEventListener("click", () => {
       openCardModal(card);
     });
-    article.querySelector(".favorite-card-btn").addEventListener("click", async (event) => {
-      event.stopPropagation();
-      await store.toggleCardFavorite(collectionIdValue, card.id);
-      render();
-    });
+    const favorite = article.querySelector(".favorite-card-btn");
+    if (favorite) {
+      favorite.addEventListener("click", async (event) => {
+        event.stopPropagation();
+        await store.toggleCardFavorite(collectionIdValue, card.id);
+        render();
+      });
+    }
     return article;
   }
 
