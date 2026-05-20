@@ -1,0 +1,1805 @@
+{
+  "fetchedAt": "2026-05-20T17:22:48.962Z",
+  "cards": [
+    {
+      "id": "sv8pt5-3",
+      "name": "Pinsir",
+      "number": "3",
+      "rarity": "Common",
+      "marketPrice": 0.12,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-2",
+      "name": "Exeggutor",
+      "number": "2",
+      "rarity": "Uncommon",
+      "marketPrice": 0.05,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-1",
+      "name": "Exeggcute",
+      "number": "1",
+      "rarity": "Common",
+      "marketPrice": 0.06,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-6",
+      "name": "Leafeon ex",
+      "number": "6",
+      "rarity": "Double Rare",
+      "marketPrice": 4.06,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-8",
+      "name": "Whimsicott",
+      "number": "8",
+      "rarity": "Rare",
+      "marketPrice": 0.15,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-9",
+      "name": "Applin",
+      "number": "9",
+      "rarity": "Common",
+      "marketPrice": 0.11,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-4",
+      "name": "Budew",
+      "number": "4",
+      "rarity": "Common",
+      "marketPrice": 0.29,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-5",
+      "name": "Leafeon",
+      "number": "5",
+      "rarity": "Rare",
+      "marketPrice": 0.4,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-7",
+      "name": "Cottonee",
+      "number": "7",
+      "rarity": "Common",
+      "marketPrice": 0.05,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-13",
+      "name": "Flareon",
+      "number": "13",
+      "rarity": "Rare",
+      "marketPrice": 0.37,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-11",
+      "name": "Hydrapple ex",
+      "number": "11",
+      "rarity": "Double Rare",
+      "marketPrice": 0.79,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-14",
+      "name": "Flareon ex",
+      "number": "14",
+      "rarity": "Double Rare",
+      "marketPrice": 5.11,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-10",
+      "name": "Dipplin",
+      "number": "10",
+      "rarity": "Uncommon",
+      "marketPrice": 0.23,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-12",
+      "name": "Teal Mask Ogerpon ex",
+      "number": "12",
+      "rarity": "Double Rare",
+      "marketPrice": 4,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-22",
+      "name": "Vaporeon",
+      "number": "22",
+      "rarity": "Rare",
+      "marketPrice": 0.28,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-23",
+      "name": "Vaporeon ex",
+      "number": "23",
+      "rarity": "Double Rare",
+      "marketPrice": 2.92,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-25",
+      "name": "Glaceon",
+      "number": "25",
+      "rarity": "Rare",
+      "marketPrice": 0.33,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-31",
+      "name": "Iron Hands ex",
+      "number": "31",
+      "rarity": "Double Rare",
+      "marketPrice": 0.56,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-32",
+      "name": "Iron Thorns ex",
+      "number": "32",
+      "rarity": "Double Rare",
+      "marketPrice": 0.67,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-33",
+      "name": "Espeon",
+      "number": "33",
+      "rarity": "Rare",
+      "marketPrice": 0.47,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-35",
+      "name": "Duskull",
+      "number": "35",
+      "rarity": "Common",
+      "marketPrice": 0.19,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-15",
+      "name": "Litleo",
+      "number": "15",
+      "rarity": "Common",
+      "marketPrice": 0.13,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-21",
+      "name": "Seaking",
+      "number": "21",
+      "rarity": "Uncommon",
+      "marketPrice": 0.26,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-30",
+      "name": "Jolteon ex",
+      "number": "30",
+      "rarity": "Double Rare",
+      "marketPrice": 4.13,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-18",
+      "name": "Slowpoke",
+      "number": "18",
+      "rarity": "Common",
+      "marketPrice": 0.19,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-24",
+      "name": "Suicune",
+      "number": "24",
+      "rarity": "Uncommon",
+      "marketPrice": 0.19,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-26",
+      "name": "Glaceon ex",
+      "number": "26",
+      "rarity": "Double Rare",
+      "marketPrice": 2.06,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-28",
+      "name": "Pikachu ex",
+      "number": "28",
+      "rarity": "Double Rare",
+      "marketPrice": 2.32,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-16",
+      "name": "Pyroar",
+      "number": "16",
+      "rarity": "Uncommon",
+      "marketPrice": 0.15,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-17",
+      "name": "Hearthflame Mask Ogerpon ex",
+      "number": "17",
+      "rarity": "Double Rare",
+      "marketPrice": 0.68,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-19",
+      "name": "Slowking",
+      "number": "19",
+      "rarity": "Uncommon",
+      "marketPrice": 0.12,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-20",
+      "name": "Goldeen",
+      "number": "20",
+      "rarity": "Common",
+      "marketPrice": 0.17,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-27",
+      "name": "Wellspring Mask Ogerpon ex",
+      "number": "27",
+      "rarity": "Double Rare",
+      "marketPrice": 0.9,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-29",
+      "name": "Jolteon",
+      "number": "29",
+      "rarity": "Rare",
+      "marketPrice": 0.33,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-34",
+      "name": "Espeon ex",
+      "number": "34",
+      "rarity": "Double Rare",
+      "marketPrice": 3.35,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-36",
+      "name": "Dusclops",
+      "number": "36",
+      "rarity": "Common",
+      "marketPrice": 0.23,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-38",
+      "name": "Spritzee",
+      "number": "38",
+      "rarity": "Common",
+      "marketPrice": 0.15,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-45",
+      "name": "Fezandipiti",
+      "number": "45",
+      "rarity": "Rare",
+      "marketPrice": 0.12,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-46",
+      "name": "Iron Boulder",
+      "number": "46",
+      "rarity": "Rare",
+      "marketPrice": 0.19,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-39",
+      "name": "Aromatisse",
+      "number": "39",
+      "rarity": "Common",
+      "marketPrice": 0.17,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-42",
+      "name": "Scream Tail",
+      "number": "42",
+      "rarity": "Uncommon",
+      "marketPrice": 0.06,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-43",
+      "name": "Flutter Mane",
+      "number": "43",
+      "rarity": "Rare",
+      "marketPrice": 0.06,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-41",
+      "name": "Sylveon ex",
+      "number": "41",
+      "rarity": "Double Rare",
+      "marketPrice": 2.74,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-37",
+      "name": "Dusknoir",
+      "number": "37",
+      "rarity": "Rare",
+      "marketPrice": 0.24,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-40",
+      "name": "Sylveon",
+      "number": "40",
+      "rarity": "Rare",
+      "marketPrice": 0.31,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-44",
+      "name": "Munkidori",
+      "number": "44",
+      "rarity": "Rare",
+      "marketPrice": 0.34,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-49",
+      "name": "Groudon",
+      "number": "49",
+      "rarity": "Rare",
+      "marketPrice": 0.24,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-50",
+      "name": "Riolu",
+      "number": "50",
+      "rarity": "Common",
+      "marketPrice": 0.21,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-47",
+      "name": "Larvitar",
+      "number": "47",
+      "rarity": "Common",
+      "marketPrice": 0.06,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-48",
+      "name": "Pupitar",
+      "number": "48",
+      "rarity": "Common",
+      "marketPrice": 0.11,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-56",
+      "name": "Sandy Shocks ex",
+      "number": "56",
+      "rarity": "Double Rare",
+      "marketPrice": 0.56,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-59",
+      "name": "Umbreon",
+      "number": "59",
+      "rarity": "Rare",
+      "marketPrice": 0.43,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-51",
+      "name": "Lucario ex",
+      "number": "51",
+      "rarity": "Double Rare",
+      "marketPrice": 0.75,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-52",
+      "name": "Hippopotas",
+      "number": "52",
+      "rarity": "Common",
+      "marketPrice": 0.06,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-57",
+      "name": "Okidogi",
+      "number": "57",
+      "rarity": "Rare",
+      "marketPrice": 0.19,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-54",
+      "name": "Bloodmoon Ursaluna",
+      "number": "54",
+      "rarity": "Rare",
+      "marketPrice": 0.19,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-60",
+      "name": "Umbreon ex",
+      "number": "60",
+      "rarity": "Double Rare",
+      "marketPrice": 6.84,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-61",
+      "name": "Sneasel",
+      "number": "61",
+      "rarity": "Common",
+      "marketPrice": 0.06,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-53",
+      "name": "Hippowdon",
+      "number": "53",
+      "rarity": "Common",
+      "marketPrice": 0.1,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-55",
+      "name": "Great Tusk",
+      "number": "55",
+      "rarity": "Uncommon",
+      "marketPrice": 0.13,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-58",
+      "name": "Cornerstone Mask Ogerpon ex",
+      "number": "58",
+      "rarity": "Double Rare",
+      "marketPrice": 0.93,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-62",
+      "name": "Houndour",
+      "number": "62",
+      "rarity": "Common",
+      "marketPrice": 0.18,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-64",
+      "name": "Tyranitar ex",
+      "number": "64",
+      "rarity": "Double Rare",
+      "marketPrice": 0.61,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-63",
+      "name": "Houndoom",
+      "number": "63",
+      "rarity": "Common",
+      "marketPrice": 0.08,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-65",
+      "name": "Roaring Moon",
+      "number": "65",
+      "rarity": "Rare",
+      "marketPrice": 0.14,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-66",
+      "name": "Bronzor",
+      "number": "66",
+      "rarity": "Common",
+      "marketPrice": 0.15,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-67",
+      "name": "Bronzong",
+      "number": "67",
+      "rarity": "Uncommon",
+      "marketPrice": 0.02,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-68",
+      "name": "Heatran",
+      "number": "68",
+      "rarity": "Uncommon",
+      "marketPrice": 0.14,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-69",
+      "name": "Duraludon",
+      "number": "69",
+      "rarity": "Common",
+      "marketPrice": 0.19,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-70",
+      "name": "Archaludon",
+      "number": "70",
+      "rarity": "Rare",
+      "marketPrice": 0.07,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-71",
+      "name": "Dreepy",
+      "number": "71",
+      "rarity": "Common",
+      "marketPrice": 0.24,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-72",
+      "name": "Drakloak",
+      "number": "72",
+      "rarity": "Common",
+      "marketPrice": 0.3,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-73",
+      "name": "Dragapult ex",
+      "number": "73",
+      "rarity": "Double Rare",
+      "marketPrice": 1.47,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-74",
+      "name": "Eevee",
+      "number": "74",
+      "rarity": "Common",
+      "marketPrice": 0.31,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-75",
+      "name": "Eevee ex",
+      "number": "75",
+      "rarity": "Double Rare",
+      "marketPrice": 6.63,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-76",
+      "name": "Snorlax ex",
+      "number": "76",
+      "rarity": "Double Rare",
+      "marketPrice": 1.55,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-78",
+      "name": "Noctowl",
+      "number": "78",
+      "rarity": "Rare",
+      "marketPrice": 0.22,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-79",
+      "name": "Dunsparce",
+      "number": "79",
+      "rarity": "Common",
+      "marketPrice": 0.18,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-77",
+      "name": "Hoothoot",
+      "number": "77",
+      "rarity": "Common",
+      "marketPrice": 0.18,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-81",
+      "name": "Miltank",
+      "number": "81",
+      "rarity": "Common",
+      "marketPrice": 0.16,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-83",
+      "name": "Buneary",
+      "number": "83",
+      "rarity": "Common",
+      "marketPrice": 0.05,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-80",
+      "name": "Dudunsparce",
+      "number": "80",
+      "rarity": "Rare",
+      "marketPrice": 0.26,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-82",
+      "name": "Lugia ex",
+      "number": "82",
+      "rarity": "Double Rare",
+      "marketPrice": 1.41,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-84",
+      "name": "Lopunny",
+      "number": "84",
+      "rarity": "Common",
+      "marketPrice": 0.15,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-85",
+      "name": "Fan Rotom",
+      "number": "85",
+      "rarity": "Common",
+      "marketPrice": 0.14,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-86",
+      "name": "Regigigas",
+      "number": "86",
+      "rarity": "Uncommon",
+      "marketPrice": 0.24,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-87",
+      "name": "Shaymin",
+      "number": "87",
+      "rarity": "Uncommon",
+      "marketPrice": 0.14,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-89",
+      "name": "Hawlucha",
+      "number": "89",
+      "rarity": "Uncommon",
+      "marketPrice": 0.19,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-88",
+      "name": "Furfrou",
+      "number": "88",
+      "rarity": "Common",
+      "marketPrice": 0.15,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-90",
+      "name": "Noibat",
+      "number": "90",
+      "rarity": "Common",
+      "marketPrice": 0.07,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-91",
+      "name": "Noivern ex",
+      "number": "91",
+      "rarity": "Double Rare",
+      "marketPrice": 0.65,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-92",
+      "name": "Terapagos ex",
+      "number": "92",
+      "rarity": "Double Rare",
+      "marketPrice": 0.63,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-93",
+      "name": "Amarys",
+      "number": "93",
+      "rarity": "Common",
+      "marketPrice": 0.04,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-94",
+      "name": "Area Zero Underdepths",
+      "number": "94",
+      "rarity": "Uncommon",
+      "marketPrice": 0.18,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-97",
+      "name": "Black Belt's Training",
+      "number": "97",
+      "rarity": "Common",
+      "marketPrice": 0.07,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-101",
+      "name": "Buddy-Buddy Poffin",
+      "number": "101",
+      "rarity": "Uncommon",
+      "marketPrice": 0.19,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-98",
+      "name": "Black Belt's Training",
+      "number": "98",
+      "rarity": "Common",
+      "marketPrice": 0.11,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-95",
+      "name": "Binding Mochi",
+      "number": "95",
+      "rarity": "Uncommon",
+      "marketPrice": 0.23,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-96",
+      "name": "Black Belt's Training",
+      "number": "96",
+      "rarity": "Common",
+      "marketPrice": 0.17,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-100",
+      "name": "Briar",
+      "number": "100",
+      "rarity": "Uncommon",
+      "marketPrice": 0.1,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-99",
+      "name": "Black Belt's Training",
+      "number": "99",
+      "rarity": "Common",
+      "marketPrice": 0.05,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-102",
+      "name": "Bug Catching Set",
+      "number": "102",
+      "rarity": "Uncommon",
+      "marketPrice": 0.17,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-103",
+      "name": "Carmine",
+      "number": "103",
+      "rarity": "Uncommon",
+      "marketPrice": 0.18,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-106",
+      "name": "Earthen Vessel",
+      "number": "106",
+      "rarity": "Uncommon",
+      "marketPrice": 0.29,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-105",
+      "name": "Crispin",
+      "number": "105",
+      "rarity": "Uncommon",
+      "marketPrice": 0.26,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-108",
+      "name": "Festival Grounds",
+      "number": "108",
+      "rarity": "Uncommon",
+      "marketPrice": 0.15,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-112",
+      "name": "Janine's Secret Art",
+      "number": "112",
+      "rarity": "Uncommon",
+      "marketPrice": 0.13,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-110",
+      "name": "Glass Trumpet",
+      "number": "110",
+      "rarity": "Uncommon",
+      "marketPrice": 0.05,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-111",
+      "name": "Haban Berry",
+      "number": "111",
+      "rarity": "Common",
+      "marketPrice": 0.02,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-104",
+      "name": "Ciphermaniac's Codebreaking",
+      "number": "104",
+      "rarity": "Uncommon",
+      "marketPrice": 0.2,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-107",
+      "name": "Explorer's Guidance",
+      "number": "107",
+      "rarity": "Uncommon",
+      "marketPrice": 0.15,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-109",
+      "name": "Friends in Paldea",
+      "number": "109",
+      "rarity": "Common",
+      "marketPrice": 0.06,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-113",
+      "name": "Kieran",
+      "number": "113",
+      "rarity": "Uncommon",
+      "marketPrice": 0.17,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-114",
+      "name": "Lacey",
+      "number": "114",
+      "rarity": "Uncommon",
+      "marketPrice": 0.13,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-115",
+      "name": "Larry's Skill",
+      "number": "115",
+      "rarity": "Common",
+      "marketPrice": 0.22,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-119",
+      "name": "Prime Catcher",
+      "number": "119",
+      "rarity": "ACE SPEC Rare",
+      "marketPrice": 0.47,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-116",
+      "name": "Max Rod",
+      "number": "116",
+      "rarity": "ACE SPEC Rare",
+      "marketPrice": 0.61,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-117",
+      "name": "Maximum Belt",
+      "number": "117",
+      "rarity": "ACE SPEC Rare",
+      "marketPrice": 0.51,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-118",
+      "name": "Ogre's Mask",
+      "number": "118",
+      "rarity": "Uncommon",
+      "marketPrice": 0.2,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-120",
+      "name": "Professor Sada's Vitality",
+      "number": "120",
+      "rarity": "Uncommon",
+      "marketPrice": 0.19,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-121",
+      "name": "Professor Turo's Scenario",
+      "number": "121",
+      "rarity": "Uncommon",
+      "marketPrice": 0.18,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-122",
+      "name": "Professor's Research",
+      "number": "122",
+      "rarity": "Common",
+      "marketPrice": 0.17,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-123",
+      "name": "Professor's Research",
+      "number": "123",
+      "rarity": "Common",
+      "marketPrice": 0.05,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-124",
+      "name": "Professor's Research",
+      "number": "124",
+      "rarity": "Common",
+      "marketPrice": 0.15,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-125",
+      "name": "Professor's Research",
+      "number": "125",
+      "rarity": "Common",
+      "marketPrice": 0.06,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-126",
+      "name": "Rescue Board",
+      "number": "126",
+      "rarity": "Uncommon",
+      "marketPrice": 0.05,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-127",
+      "name": "Roto-Stick",
+      "number": "127",
+      "rarity": "Common",
+      "marketPrice": 0.2,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-128",
+      "name": "Scoop Up Cyclone",
+      "number": "128",
+      "rarity": "ACE SPEC Rare",
+      "marketPrice": 0.37,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-129",
+      "name": "Sparkling Crystal",
+      "number": "129",
+      "rarity": "ACE SPEC Rare",
+      "marketPrice": 0.35,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-131",
+      "name": "Treasure Tracker",
+      "number": "131",
+      "rarity": "ACE SPEC Rare",
+      "marketPrice": 0.3,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-130",
+      "name": "Techno Radar",
+      "number": "130",
+      "rarity": "Uncommon",
+      "marketPrice": 0.15,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-135",
+      "name": "Brassius",
+      "number": "135",
+      "rarity": "Ultra Rare",
+      "marketPrice": 0.56,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-133",
+      "name": "Atticus",
+      "number": "133",
+      "rarity": "Ultra Rare",
+      "marketPrice": 0.75,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-134",
+      "name": "Atticus",
+      "number": "134",
+      "rarity": "Ultra Rare",
+      "marketPrice": 0.6,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-132",
+      "name": "Amarys",
+      "number": "132",
+      "rarity": "Ultra Rare",
+      "marketPrice": 0.67,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-137",
+      "name": "Friends in Paldea",
+      "number": "137",
+      "rarity": "Ultra Rare",
+      "marketPrice": 0.88,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-136",
+      "name": "Eri",
+      "number": "136",
+      "rarity": "Ultra Rare",
+      "marketPrice": 0.97,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-138",
+      "name": "Giacomo",
+      "number": "138",
+      "rarity": "Ultra Rare",
+      "marketPrice": 0.48,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-139",
+      "name": "Larry's Skill",
+      "number": "139",
+      "rarity": "Ultra Rare",
+      "marketPrice": 0.99,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-140",
+      "name": "Mela",
+      "number": "140",
+      "rarity": "Ultra Rare",
+      "marketPrice": 0.9,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-141",
+      "name": "Ortega",
+      "number": "141",
+      "rarity": "Ultra Rare",
+      "marketPrice": 0.59,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-142",
+      "name": "Raifort",
+      "number": "142",
+      "rarity": "Ultra Rare",
+      "marketPrice": 0.71,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-143",
+      "name": "Tyme",
+      "number": "143",
+      "rarity": "Ultra Rare",
+      "marketPrice": 0.52,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-144",
+      "name": "Leafeon ex",
+      "number": "144",
+      "rarity": "Special Illustration Rare",
+      "marketPrice": 333.92,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-145",
+      "name": "Teal Mask Ogerpon ex",
+      "number": "145",
+      "rarity": "Special Illustration Rare",
+      "marketPrice": 22.78,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-147",
+      "name": "Ceruledge ex",
+      "number": "147",
+      "rarity": "Special Illustration Rare",
+      "marketPrice": 100.23,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-146",
+      "name": "Flareon ex",
+      "number": "146",
+      "rarity": "Special Illustration Rare",
+      "marketPrice": 195.57,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-151",
+      "name": "Palafin ex",
+      "number": "151",
+      "rarity": "Special Illustration Rare",
+      "marketPrice": 43.78,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-153",
+      "name": "Jolteon ex",
+      "number": "153",
+      "rarity": "Special Illustration Rare",
+      "marketPrice": 198.36,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-148",
+      "name": "Hearthflame Mask Ogerpon ex",
+      "number": "148",
+      "rarity": "Special Illustration Rare",
+      "marketPrice": 19.51,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-150",
+      "name": "Glaceon ex",
+      "number": "150",
+      "rarity": "Special Illustration Rare",
+      "marketPrice": 267.09,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-152",
+      "name": "Wellspring Mask Ogerpon ex",
+      "number": "152",
+      "rarity": "Special Illustration Rare",
+      "marketPrice": 17.23,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-149",
+      "name": "Vaporeon ex",
+      "number": "149",
+      "rarity": "Special Illustration Rare",
+      "marketPrice": 280.27,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-154",
+      "name": "Iron Hands ex",
+      "number": "154",
+      "rarity": "Special Illustration Rare",
+      "marketPrice": 35.24,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-155",
+      "name": "Espeon ex",
+      "number": "155",
+      "rarity": "Special Illustration Rare",
+      "marketPrice": 321.24,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-157",
+      "name": "Iron Valiant ex",
+      "number": "157",
+      "rarity": "Special Illustration Rare",
+      "marketPrice": 47.72,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-156",
+      "name": "Sylveon ex",
+      "number": "156",
+      "rarity": "Special Illustration Rare",
+      "marketPrice": 430.1,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-158",
+      "name": "Iron Crown ex",
+      "number": "158",
+      "rarity": "Special Illustration Rare",
+      "marketPrice": 39.1,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-159",
+      "name": "Sandy Shocks ex",
+      "number": "159",
+      "rarity": "Special Illustration Rare",
+      "marketPrice": 25.38,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-160",
+      "name": "Cornerstone Mask Ogerpon ex",
+      "number": "160",
+      "rarity": "Special Illustration Rare",
+      "marketPrice": 18.18,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-162",
+      "name": "Roaring Moon ex",
+      "number": "162",
+      "rarity": "Special Illustration Rare",
+      "marketPrice": 172.96,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-161",
+      "name": "Umbreon ex",
+      "number": "161",
+      "rarity": "Special Illustration Rare",
+      "marketPrice": 1429.68,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-163",
+      "name": "Pecharunt ex",
+      "number": "163",
+      "rarity": "Special Illustration Rare",
+      "marketPrice": 33.04,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-164",
+      "name": "Gholdengo ex",
+      "number": "164",
+      "rarity": "Special Illustration Rare",
+      "marketPrice": 46.25,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-165",
+      "name": "Dragapult ex",
+      "number": "165",
+      "rarity": "Special Illustration Rare",
+      "marketPrice": 138.57,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-166",
+      "name": "Raging Bolt ex",
+      "number": "166",
+      "rarity": "Special Illustration Rare",
+      "marketPrice": 68.71,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-167",
+      "name": "Eevee ex",
+      "number": "167",
+      "rarity": "Special Illustration Rare",
+      "marketPrice": 185.86,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-168",
+      "name": "Bloodmoon Ursaluna ex",
+      "number": "168",
+      "rarity": "Special Illustration Rare",
+      "marketPrice": 69.94,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-169",
+      "name": "Terapagos ex",
+      "number": "169",
+      "rarity": "Special Illustration Rare",
+      "marketPrice": 36.37,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-170",
+      "name": "Amarys",
+      "number": "170",
+      "rarity": "Special Illustration Rare",
+      "marketPrice": 15.79,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-171",
+      "name": "Crispin",
+      "number": "171",
+      "rarity": "Special Illustration Rare",
+      "marketPrice": 48.78,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-176",
+      "name": "Iron Leaves ex",
+      "number": "176",
+      "rarity": "Hyper Rare",
+      "marketPrice": 5.42,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-174",
+      "name": "Kieran",
+      "number": "174",
+      "rarity": "Special Illustration Rare",
+      "marketPrice": 21.28,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-177",
+      "name": "Teal Mask Ogerpon ex",
+      "number": "177",
+      "rarity": "Hyper Rare",
+      "marketPrice": 13.66,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-178",
+      "name": "Walking Wake ex",
+      "number": "178",
+      "rarity": "Hyper Rare",
+      "marketPrice": 6.74,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-180",
+      "name": "Terapagos ex",
+      "number": "180",
+      "rarity": "Hyper Rare",
+      "marketPrice": 10.11,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-172",
+      "name": "Drayton",
+      "number": "172",
+      "rarity": "Special Illustration Rare",
+      "marketPrice": 18.12,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-173",
+      "name": "Janine's Secret Art",
+      "number": "173",
+      "rarity": "Special Illustration Rare",
+      "marketPrice": 26.54,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-175",
+      "name": "Lacey",
+      "number": "175",
+      "rarity": "Special Illustration Rare",
+      "marketPrice": 28,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    },
+    {
+      "id": "sv8pt5-179",
+      "name": "Pikachu ex",
+      "number": "179",
+      "rarity": "Hyper Rare",
+      "marketPrice": 68.1,
+      "marketCurrency": "USD",
+      "marketSource": "TCGplayer",
+      "marketUpdatedAt": "2026/05/20"
+    }
+  ]
+}

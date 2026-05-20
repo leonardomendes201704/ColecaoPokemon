@@ -1,0 +1,10 @@
+{
+  "name": "Colecao Pokemon",
+  "short_name": "Cartas",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fbfcff",
+  "theme_color": "#2563ff",
+  "orientation": "portrait",
+  "icons": []
+}
