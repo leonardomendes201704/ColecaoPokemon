@@ -6,6 +6,7 @@
   let activeFilter = "all";
   let currentCards = [];
   let searchTerm = "";
+  let sortMode = "number";
 
   function assetPath(fileName) {
     return `${location.pathname.includes("/Templates/") ? "../" : ""}Imagens/${fileName}`;
@@ -142,12 +143,42 @@
     });
   }
 
+  function cardNumberValue(card) {
+    const value = Number(String(card.number || "").replace(/\D/g, ""));
+    return Number.isFinite(value) ? value : Number.MAX_SAFE_INTEGER;
+  }
+
+  function sortCards(cards) {
+    const sorted = [...cards];
+    const collator = new Intl.Collator("pt-BR", { numeric: true, sensitivity: "base" });
+
+    return sorted.sort((a, b) => {
+      if (sortMode === "name") {
+        return collator.compare(a.name || "", b.name || "")
+          || cardNumberValue(a) - cardNumberValue(b);
+      }
+
+      if (sortMode === "price") {
+        const priceA = cardValueInBrl(a);
+        const priceB = cardValueInBrl(b);
+        const valueA = typeof priceA === "number" ? priceA : Number.POSITIVE_INFINITY;
+        const valueB = typeof priceB === "number" ? priceB : Number.POSITIVE_INFINITY;
+        return valueA - valueB
+          || cardNumberValue(a) - cardNumberValue(b)
+          || collator.compare(a.name || "", b.name || "");
+      }
+
+      return cardNumberValue(a) - cardNumberValue(b)
+        || collator.compare(a.name || "", b.name || "");
+    });
+  }
+
   function renderCards(cards, collection) {
     const grid = document.querySelector(".cards-grid");
     if (!grid) return;
     grid.innerHTML = "";
 
-    const visibleCards = filteredCards(cards);
+    const visibleCards = sortCards(filteredCards(cards));
     if (visibleCards.length === 0) {
       grid.innerHTML = `<p class="empty-state">Nenhuma carta nesse filtro.</p>`;
       return;
@@ -199,6 +230,39 @@
       searchTerm = input.value;
       store.getCollection(collectionId).then((collection) => renderCards(currentCards, collection));
     });
+  }
+
+  function bindSortButton() {
+    const button = document.querySelector(".sort-btn");
+    const label = document.querySelector("[data-sort-label]");
+    if (!button || !label) return;
+
+    const modes = ["number", "name", "price"];
+    const labels = {
+      number: "Nº",
+      name: "Nome",
+      price: "Preço"
+    };
+    const ariaLabels = {
+      number: "Ordenar por número",
+      name: "Ordenar por nome",
+      price: "Ordenar por preço"
+    };
+
+    function updateSortButton() {
+      button.dataset.sortMode = sortMode;
+      button.setAttribute("aria-label", ariaLabels[sortMode]);
+      label.textContent = labels[sortMode];
+    }
+
+    button.addEventListener("click", () => {
+      const currentIndex = modes.indexOf(sortMode);
+      sortMode = modes[(currentIndex + 1) % modes.length];
+      updateSortButton();
+      store.getCollection(collectionId).then((collection) => renderCards(currentCards, collection));
+    });
+
+    updateSortButton();
   }
 
   function ensureModal() {
@@ -362,6 +426,7 @@
     if (back) back.addEventListener("click", () => window.history.length > 1 ? window.history.back() : window.location.href = "../index.html");
     bindFilterChips();
     bindSearch();
+    bindSortButton();
     refreshExchangeRates().then(render).then(async () => {
       try {
         const result = await store.refreshCollectionPrices(collectionId);

@@ -206,7 +206,7 @@
     .quick-stat.value strong { font-size: 16px; letter-spacing: -.03em; }
     .quick-stat span { display: block; color: var(--muted); font-size: 11px; font-weight: 700; margin-top: 2px; }
 
-    .search-row { display: grid; grid-template-columns: 1fr; gap: 10px; margin-bottom: 14px; }
+    .search-row { display: grid; grid-template-columns: 1fr 74px; gap: 10px; margin-bottom: 14px; }
     .search {
       height: 48px;
       border-radius: 999px;
@@ -236,19 +236,24 @@
       color: var(--muted);
       opacity: 1;
     }
-    .filter-btn {
-      width: 48px;
+    .sort-btn {
+      width: 74px;
       height: 48px;
-      border: 0;
+      border: 1px solid rgba(119,88,246,.16);
       border-radius: 999px;
-      background: linear-gradient(135deg, rgba(119,88,246,.20), rgba(119,88,246,.10));
-      color: var(--text);
+      background: rgba(255,255,255,.84);
+      color: var(--purple);
       box-shadow: 0 10px 22px rgba(119,88,246,.14);
-      display: grid;
-      place-items: center;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 4px;
+      font: inherit;
+      font-size: 11px;
+      font-weight: 900;
       cursor: pointer;
     }
-    .filter-btn svg { width: 21px; height: 21px; }
+    .sort-btn svg { width: 15px; height: 15px; stroke-width: 2.5; }
 
     .chips {
       display: flex;
@@ -705,6 +710,10 @@
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
             <span data-text-placeholder="search-placeholder">Buscar carta na coleÃ§Ã£o...</span>
           </div>
+          <button class="sort-btn" type="button" data-sort-mode="number" aria-label="Ordenar por número">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14"/><path d="m18 13-6 6-6-6"/></svg>
+            <span data-sort-label>N&ordm;</span>
+          </button>
         </section>
 
         <nav class="chips" aria-label="Filtros da coleÃ§Ã£o">
