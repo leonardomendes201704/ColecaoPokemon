@@ -161,9 +161,9 @@
       if (sortMode === "price") {
         const priceA = cardValueInBrl(a);
         const priceB = cardValueInBrl(b);
-        const valueA = typeof priceA === "number" ? priceA : Number.POSITIVE_INFINITY;
-        const valueB = typeof priceB === "number" ? priceB : Number.POSITIVE_INFINITY;
-        return valueA - valueB
+        const valueA = typeof priceA === "number" ? priceA : Number.NEGATIVE_INFINITY;
+        const valueB = typeof priceB === "number" ? priceB : Number.NEGATIVE_INFINITY;
+        return valueB - valueA
           || cardNumberValue(a) - cardNumberValue(b)
           || collator.compare(a.name || "", b.name || "");
       }
