@@ -20,6 +20,75 @@
     return deviceId;
   }
 
+  const promoMegaEvolutionCards = [
+    ["001", "Meganium [Staff]"],
+    ["002", "Inteleon [Staff]"],
+    ["003", "Alakazam [Staff]"],
+    ["004", "Lunatone [Staff]"],
+    ["005", "Drifloon"],
+    ["006", "Drifblim"],
+    ["007", "Psyduck"],
+    ["008", "Golduck"],
+    ["009", "Alakazam [Pokemon Center]"],
+    ["010", "Riolu [Pokemon Center]"],
+    ["011", "Mega Latias ex [Jumbo]"],
+    ["012", "Mega Lucario ex [Jumbo]"],
+    ["013", "Mega Venusaur ex [Jumbo]"],
+    ["014", "Ceruledge [Staff]"],
+    ["015", "Zacian [Staff]"],
+    ["016", "Flygon [Staff]"],
+    ["017", "Toxtricity [Staff]"],
+    ["018", "Cottonee"],
+    ["019", "Whimsicott"],
+    ["020", "Sneasel"],
+    ["021", "Weavile"],
+    ["022", "Charcadet [Pokemon Center]"],
+    ["023", "Mega Charizard X ex"],
+    ["024", "Oricorio ex"],
+    ["025", "Mega Kangaskhan ex [Jumbo]"],
+    ["026", "Meloetta"],
+    ["027", "Haunter"],
+    ["028", "Celebratory Fanfare"],
+    ["029", "Mega Charizard X ex"],
+    ["030", "Mega Charizard Y ex"],
+    ["031", "N's Zekrom [Pokemon Center]"],
+    ["032", "Mega Gardevoir ex"],
+    ["033", "Mega Lucario ex"],
+    ["034", "Mega Meganium ex [Jumbo]"],
+    ["035", "Mega Emboar ex [Jumbo]"],
+    ["036", "Mega Feraligatr ex [Jumbo]"],
+    ["037", "Bulbasaur"],
+    ["038", "Charmander"],
+    ["039", "Squirtle"],
+    ["040", "Turtwig"],
+    ["041", "Chimchar"],
+    ["042", "Piplup"],
+    ["043", "Rowlet"],
+    ["044", "Litten"],
+    ["045", "Popplio"],
+    ["046", "Chikorita"],
+    ["047", "Cyndaquil"],
+    ["048", "Totodile"],
+    ["049", "Snivy"],
+    ["050", "Tepig"],
+    ["051", "Oshawott"],
+    ["052", "Grookey"],
+    ["053", "Scorbunny"],
+    ["054", "Sobble"]
+  ].map(([number, name]) => ({
+    number,
+    name,
+    rarity: "PROMO",
+    quantity: 0,
+    owned: false,
+    favorite: false,
+    image: null,
+    marketPrice: null,
+    marketCurrency: null,
+    marketSource: null,
+    marketUpdatedAt: null
+  }));
+
   const baseCollections = [
     {
       id: "evolucoes-prismaticas",
@@ -72,6 +141,17 @@
       marketQuery: "set.id:me1"
     },
     {
+      id: "promos-megaevolucao",
+      name: "Promos Megaevolucao",
+      total: promoMegaEvolutionCards.length,
+      owned: 0,
+      duplicated: 0,
+      rare: 0,
+      image: "colecao-promos-megaevolucao.svg",
+      theme: "purple",
+      cards: promoMegaEvolutionCards
+    },
+    {
       id: "sombras-do-eclipse",
       name: "Sombras do Eclipse",
       total: 180,
@@ -86,6 +166,27 @@
   const rarities = ["COMUM", "INCOMUM", "RARA", "ÉPICA", "SECRETA"];
 
   function buildCards(collection) {
+    if (Array.isArray(collection.cards)) {
+      return collection.cards.map((card, index) => {
+        const number = card.number || String(index + 1).padStart(3, "0");
+        const quantity = typeof card.quantity === "number" ? card.quantity : 0;
+        return {
+          id: `${collection.id}-${number}`,
+          number,
+          name: card.name || `Carta ${number}`,
+          rarity: card.rarity || "PROMO",
+          quantity,
+          owned: quantity > 0,
+          favorite: Boolean(card.favorite),
+          image: card.image || null,
+          marketPrice: card.marketPrice || null,
+          marketCurrency: card.marketCurrency || null,
+          marketSource: card.marketSource || null,
+          marketUpdatedAt: card.marketUpdatedAt || null
+        };
+      });
+    }
+
     const total = collection.artCount || Math.min(collection.total, 24);
     return Array.from({ length: total }, (_, index) => {
       const number = String(index + 1).padStart(3, "0");
