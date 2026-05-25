@@ -66,6 +66,8 @@
       rare: 0,
       image: "colecao-megaevolucao-base.svg",
       theme: "blue",
+      artFolder: "megaevolucao-base",
+      artLocalCount: 180,
       artCount: 188,
       marketQuery: "set.id:me1"
     },
@@ -88,6 +90,7 @@
     return Array.from({ length: total }, (_, index) => {
       const number = String(index + 1).padStart(3, "0");
       const quantity = 0;
+      const hasLocalArt = collection.artFolder && (!collection.artLocalCount || index < collection.artLocalCount);
       return {
         id: `${collection.id}-${number}`,
         number,
@@ -96,7 +99,7 @@
         quantity,
         owned: quantity > 0,
         favorite: false,
-        image: collection.artFolder ? `cartas/${collection.artFolder}/${number}.png` : null,
+        image: hasLocalArt ? `cartas/${collection.artFolder}/${number}.png` : null,
         marketPrice: null,
         marketCurrency: null,
         marketSource: null,
@@ -171,7 +174,15 @@
         : [];
       const existingById = new Map(existingCards.map((card) => [card.id, card]));
       const baseCards = buildCards(baseCollection);
-      const mergedCards = baseCards.map((baseCard) => existingById.get(baseCard.id) || baseCard);
+      const mergedCards = baseCards.map((baseCard) => {
+        const existingCard = existingById.get(baseCard.id);
+        if (!existingCard) return baseCard;
+        if (!existingCard.image && baseCard.image) {
+          changed = true;
+          return { ...existingCard, image: baseCard.image };
+        }
+        return existingCard;
+      });
 
       if (mergedCards.length !== existingCards.length) changed = true;
       nextState.cardsByCollection[baseCollection.id] = mergedCards;
