@@ -58,6 +58,18 @@
       theme: "green"
     },
     {
+      id: "megaevolucao-base",
+      name: "MEGAEVOLUCAO Base",
+      total: 188,
+      owned: 0,
+      duplicated: 0,
+      rare: 0,
+      image: "colecao-megaevolucao-base.svg",
+      theme: "blue",
+      artCount: 188,
+      marketQuery: "set.id:me1"
+    },
+    {
       id: "sombras-do-eclipse",
       name: "Sombras do Eclipse",
       total: 180,
@@ -132,10 +144,58 @@
     };
   }
 
+  function mergeBaseState(state) {
+    const nextState = {
+      collections: Array.isArray(state.collections) ? state.collections : [],
+      cardsByCollection: state.cardsByCollection || {}
+    };
+    let changed = false;
+
+    baseCollections.forEach((baseCollection) => {
+      const existingIndex = nextState.collections.findIndex((collection) => collection.id === baseCollection.id);
+      const existingCollection = existingIndex >= 0 ? nextState.collections[existingIndex] : null;
+
+      if (existingCollection) {
+        nextState.collections[existingIndex] = {
+          ...existingCollection,
+          ...baseCollection,
+          marketFetchedAt: existingCollection.marketFetchedAt
+        };
+      } else {
+        nextState.collections.push(baseCollection);
+        changed = true;
+      }
+
+      const existingCards = Array.isArray(nextState.cardsByCollection[baseCollection.id])
+        ? nextState.cardsByCollection[baseCollection.id].map(normalizeCard)
+        : [];
+      const existingById = new Map(existingCards.map((card) => [card.id, card]));
+      const baseCards = buildCards(baseCollection);
+      const mergedCards = baseCards.map((baseCard) => existingById.get(baseCard.id) || baseCard);
+
+      if (mergedCards.length !== existingCards.length) changed = true;
+      nextState.cardsByCollection[baseCollection.id] = mergedCards;
+    });
+
+    const order = new Map(baseCollections.map((collection, index) => [collection.id, index]));
+    const previousOrder = nextState.collections.map((collection) => collection.id).join("|");
+    nextState.collections.sort((a, b) => {
+      const orderA = order.has(a.id) ? order.get(a.id) : Number.MAX_SAFE_INTEGER;
+      const orderB = order.has(b.id) ? order.get(b.id) : Number.MAX_SAFE_INTEGER;
+      return orderA - orderB;
+    });
+    if (previousOrder !== nextState.collections.map((collection) => collection.id).join("|")) changed = true;
+
+    return { state: nextState, changed };
+  }
+
   function readState() {
     try {
       const saved = window.localStorage.getItem(STORAGE_KEY);
-      return saved ? JSON.parse(saved) : initialState();
+      if (!saved) return initialState();
+      const merged = mergeBaseState(JSON.parse(saved));
+      if (merged.changed) writeState(merged.state);
+      return merged.state;
     } catch (error) {
       console.warn("Falha ao ler dados locais; usando dados iniciais.", error);
       return initialState();
@@ -202,6 +262,10 @@
     return null;
   }
 
+  function cardImageFor(apiCard) {
+    return apiCard.images && (apiCard.images.large || apiCard.images.small) || null;
+  }
+
   async function fetchMarketCards(collection) {
     if (!collection.marketQuery || typeof fetch !== "function") return [];
     try {
@@ -219,7 +283,7 @@
     const params = new URLSearchParams({
       q: collection.marketQuery,
       pageSize: "250",
-      select: "id,name,number,rarity,tcgplayer,cardmarket"
+      select: "id,name,number,rarity,images,tcgplayer,cardmarket"
     });
     const response = await fetch(`https://api.pokemontcg.io/v2/cards?${params.toString()}`);
     if (!response.ok) throw new Error(`Pokemon TCG API ${response.status}`);
@@ -310,6 +374,7 @@
         const marketValue = marketValueFor(apiCard);
         card.name = apiCard.name || card.name;
         card.rarity = apiCard.rarity || card.rarity;
+        card.image = card.image || cardImageFor(apiCard);
         if (marketValue) {
           Object.assign(card, marketValue);
           updated += 1;

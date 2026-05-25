@@ -13,6 +13,7 @@
   }
 
   function cardImagePath(fileName) {
+    if (/^https?:\/\//i.test(fileName || "")) return fileName;
     return `${location.pathname.includes("/Templates/") ? "../" : ""}${fileName}`;
   }
 
