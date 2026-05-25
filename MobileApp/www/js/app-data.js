@@ -150,16 +150,6 @@
       image: "colecao-promos-megaevolucao.svg",
       theme: "purple",
       cards: promoMegaEvolutionCards
-    },
-    {
-      id: "sombras-do-eclipse",
-      name: "Sombras do Eclipse",
-      total: 180,
-      owned: 42,
-      duplicated: 7,
-      rare: 6,
-      image: "colecao-sombras-do-eclipse.png",
-      theme: "blue"
     }
   ];
 
@@ -254,6 +244,20 @@
       cardsByCollection: state.cardsByCollection || {}
     };
     let changed = false;
+    const activeCollectionIds = new Set(baseCollections.map((collection) => collection.id));
+    const filteredCollections = nextState.collections.filter((collection) => activeCollectionIds.has(collection.id));
+
+    if (filteredCollections.length !== nextState.collections.length) {
+      nextState.collections = filteredCollections;
+      changed = true;
+    }
+
+    Object.keys(nextState.cardsByCollection).forEach((collectionId) => {
+      if (!activeCollectionIds.has(collectionId)) {
+        delete nextState.cardsByCollection[collectionId];
+        changed = true;
+      }
+    });
 
     baseCollections.forEach((baseCollection) => {
       const existingIndex = nextState.collections.findIndex((collection) => collection.id === baseCollection.id);
