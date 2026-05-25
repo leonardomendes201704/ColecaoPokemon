@@ -1,0 +1,602 @@
+[
+  {
+    "number": "001",
+    "name": "Meganium",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Meganium_(MEP_Promo_1)",
+    "image": "https://archives.bulbagarden.net/media/upload/a/a5/MeganiumMegaEvolution10.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\001.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "002",
+    "name": "Inteleon",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Inteleon_(MEP_Promo_2)",
+    "image": "https://archives.bulbagarden.net/media/upload/a/a0/InteleonMegaEvolution41.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\002.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "003",
+    "name": "Alakazam",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Alakazam_(MEP_Promo_3)",
+    "image": "https://archives.bulbagarden.net/media/upload/7/75/AlakazamMegaEvolution56.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\003.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "004",
+    "name": "Lunatone",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Lunatone_(MEP_Promo_4)",
+    "image": "https://archives.bulbagarden.net/media/upload/a/ae/LunatoneMEPPromo4.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\004.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "005",
+    "name": "Drifloon",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Drifloon_(MEP_Promo_5)",
+    "image": "https://archives.bulbagarden.net/media/upload/f/fe/DrifloonMEPPromo5.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\005.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "006",
+    "name": "Drifblim",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Drifblim_(MEP_Promo_6)",
+    "image": "https://archives.bulbagarden.net/media/upload/6/64/DrifblimMEPPromo6.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\006.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "007",
+    "name": "Psyduck",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Psyduck_(MEP_Promo_7)",
+    "image": "https://archives.bulbagarden.net/media/upload/c/c5/PsyduckMEPPromo7.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\007.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "008",
+    "name": "Golduck",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Golduck_(MEP_Promo_8)",
+    "image": "https://archives.bulbagarden.net/media/upload/6/62/GolduckMEPPromo8.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\008.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "009",
+    "name": "Alakazam",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Alakazam_(MEP_Promo_9)",
+    "image": "https://archives.bulbagarden.net/media/upload/7/75/AlakazamMegaEvolution56.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\009.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "010",
+    "name": "Riolu",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Riolu_(MEP_Promo_10)",
+    "image": "https://archives.bulbagarden.net/media/upload/8/83/RioluMEPPromo10.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\010.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "011",
+    "name": "Mega Latias",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Mega_Latias_ex_(MEP_Promo_11)",
+    "image": "https://archives.bulbagarden.net/media/upload/7/75/MegaLatiasexMegaEvolution100.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\011.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "012",
+    "name": "Mega Lucario",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Mega_Lucario_ex_(MEP_Promo_12)",
+    "image": "https://archives.bulbagarden.net/media/upload/e/e2/MegaLucarioexMEPPromo33.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\012.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "013",
+    "name": "Mega Venusaur",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Mega_Venusaur_ex_(MEP_Promo_13)",
+    "image": "https://archives.bulbagarden.net/media/upload/0/0b/MegaVenusaurexMegaEvolution177.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\013.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "014",
+    "name": "Ceruledge",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Ceruledge_(MEP_Promo_14)",
+    "image": "https://archives.bulbagarden.net/media/upload/2/22/CeruledgeInfernoX20.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\014.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "015",
+    "name": "Zacian",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Zacian_(MEP_Promo_15)",
+    "image": "https://archives.bulbagarden.net/media/upload/a/ad/ZacianInfernoX87.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\015.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "016",
+    "name": "Flygon",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Flygon_(MEP_Promo_16)",
+    "image": "https://archives.bulbagarden.net/media/upload/4/40/FlygonInfernoX47.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\016.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "017",
+    "name": "Toxtricity",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Toxtricity_(MEP_Promo_17)",
+    "image": "https://archives.bulbagarden.net/media/upload/1/12/ToxtricityPhantasmalFlames68.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\017.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "018",
+    "name": "Cottonee",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Cottonee_(MEP_Promo_18)",
+    "image": "https://archives.bulbagarden.net/media/upload/f/fb/CottoneeMEPPromo18.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\018.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "019",
+    "name": "Whimsicott",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Whimsicott_(MEP_Promo_19)",
+    "image": "https://archives.bulbagarden.net/media/upload/4/48/WhimsicottMEPPromo19.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\019.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "020",
+    "name": "Sneasel",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Sneasel_(MEP_Promo_20)",
+    "image": "https://archives.bulbagarden.net/media/upload/4/4e/SneaselMEPPromo20.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\020.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "021",
+    "name": "Weavile",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Weavile_(MEP_Promo_21)",
+    "image": "https://archives.bulbagarden.net/media/upload/b/b8/WeavileMEPPromo21.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\021.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "022",
+    "name": "Charcadet",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Charcadet_(MEP_Promo_22)",
+    "image": "https://archives.bulbagarden.net/media/upload/4/4b/CharcadetInfernoX19.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\022.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "023",
+    "name": "Mega Charizard X",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Mega_Charizard_X_ex_(MEP_Promo_23)",
+    "image": "https://archives.bulbagarden.net/media/upload/5/56/MegaCharizardXexMEPPromo29.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\023.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "024",
+    "name": "Oricorio",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Oricorio_ex_(MEP_Promo_24)",
+    "image": "https://archives.bulbagarden.net/media/upload/1/17/OricorioexPhantasmalFlames110.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\024.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "025",
+    "name": "Mega Kangaskhan",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Mega_Kangaskhan_ex_(MEP_Promo_25)",
+    "image": "https://archives.bulbagarden.net/media/upload/a/a9/MegaKangaskhanexMEPPromo25.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\025.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "026",
+    "name": "Meloetta",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Meloetta_(MEP_Promo_26)",
+    "image": "https://archives.bulbagarden.net/media/upload/a/a3/MeloettaMEPPromo26.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\026.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "027",
+    "name": "Haunter",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Haunter_(MEP_Promo_27)",
+    "image": "https://archives.bulbagarden.net/media/upload/4/48/HaunterMEGAStarterSet2.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\027.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "028",
+    "name": "Celebratory Fanfare",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Celebratory_Fanfare_(MEP_Promo_28)",
+    "image": "https://archives.bulbagarden.net/media/upload/c/c8/CelebratoryFanfareSPromo254.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\028.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "029",
+    "name": "Mega Charizard X",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Mega_Charizard_X_ex_(MEP_Promo_29)",
+    "image": "https://archives.bulbagarden.net/media/upload/5/56/MegaCharizardXexMEPPromo29.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\029.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "030",
+    "name": "Mega Charizard Y",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Mega_Charizard_Y_ex_(MEP_Promo_30)",
+    "image": "https://archives.bulbagarden.net/media/upload/a/ad/MegaCharizardYexAscendedHeroes22.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\030.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "031",
+    "name": "N's Zekrom",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/N%27s_Zekrom_(MEP_Promo_31)",
+    "image": "https://archives.bulbagarden.net/media/upload/6/68/NZekromAscendedHeroes155.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\031.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "032",
+    "name": "Mega Gardevoir",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Mega_Gardevoir_ex_(MEP_Promo_32)",
+    "image": "https://archives.bulbagarden.net/media/upload/e/e8/MegaGardevoirexMegaEvolution60.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\032.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "033",
+    "name": "Mega Lucario",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Mega_Lucario_ex_(MEP_Promo_33)",
+    "image": "https://archives.bulbagarden.net/media/upload/e/e2/MegaLucarioexMEPPromo33.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\033.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "034",
+    "name": "Mega Meganium",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Mega_Meganium_ex_(MEP_Promo_34)",
+    "image": "https://archives.bulbagarden.net/media/upload/f/f7/MegaMeganiumexAscendedHeroes272.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\034.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "035",
+    "name": "Mega Emboar",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Mega_Emboar_ex_(MEP_Promo_35)",
+    "image": "https://archives.bulbagarden.net/media/upload/d/d1/MegaEmboarexAscendedHeroes273.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\035.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "036",
+    "name": "Mega Feraligatr",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Mega_Feraligatr_ex_(MEP_Promo_36)",
+    "image": "https://archives.bulbagarden.net/media/upload/b/b8/MegaFeraligatrexAscendedHeroes274.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\036.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "037",
+    "name": "Bulbasaur",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Bulbasaur_(MEP_Promo_37)",
+    "image": "https://archives.bulbagarden.net/media/upload/3/32/BulbasaurMEPPromo37.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\037.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "038",
+    "name": "Charmander",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Charmander_(MEP_Promo_38)",
+    "image": "https://archives.bulbagarden.net/media/upload/b/b3/CharmanderMEPPromo38.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\038.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "039",
+    "name": "Squirtle",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Squirtle_(MEP_Promo_39)",
+    "image": "https://archives.bulbagarden.net/media/upload/e/e9/SquirtleMEPPromo39.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\039.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "040",
+    "name": "Turtwig",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Turtwig_(MEP_Promo_40)",
+    "image": "https://archives.bulbagarden.net/media/upload/b/ba/TurtwigMEPPromo40.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\040.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "041",
+    "name": "Chimchar",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Chimchar_(MEP_Promo_41)",
+    "image": "https://archives.bulbagarden.net/media/upload/d/de/ChimcharMEPPromo41.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\041.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "042",
+    "name": "Piplup",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Piplup_(MEP_Promo_42)",
+    "image": "https://archives.bulbagarden.net/media/upload/5/5f/PiplupMEPPromo42.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\042.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "043",
+    "name": "Rowlet",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Rowlet_(MEP_Promo_43)",
+    "image": "https://archives.bulbagarden.net/media/upload/5/5b/RowletMEPPromo43.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\043.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "044",
+    "name": "Litten",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Litten_(MEP_Promo_44)",
+    "image": "https://archives.bulbagarden.net/media/upload/9/92/LittenMEPPromo44.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\044.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "045",
+    "name": "Popplio",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Popplio_(MEP_Promo_45)",
+    "image": "https://archives.bulbagarden.net/media/upload/9/9c/PopplioMEPPromo45.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\045.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "046",
+    "name": "Chikorita",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Chikorita_(MEP_Promo_46)",
+    "image": "https://archives.bulbagarden.net/media/upload/4/41/ChikoritaMEPPromo46.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\046.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "047",
+    "name": "Cyndaquil",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Cyndaquil_(MEP_Promo_47)",
+    "image": "https://archives.bulbagarden.net/media/upload/f/fb/CyndaquilMEPPromo47.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\047.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "048",
+    "name": "Totodile",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Totodile_(MEP_Promo_48)",
+    "image": "https://archives.bulbagarden.net/media/upload/8/8c/TotodileMEPPromo48.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\048.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "049",
+    "name": "Snivy",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Snivy_(MEP_Promo_49)",
+    "image": "https://archives.bulbagarden.net/media/upload/2/2f/SnivyMEPPromo49.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\049.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "050",
+    "name": "Tepig",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Tepig_(MEP_Promo_50)",
+    "image": "https://archives.bulbagarden.net/media/upload/c/c2/TepigMEPPromo50.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\050.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "051",
+    "name": "Oshawott",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Oshawott_(MEP_Promo_51)",
+    "image": "https://archives.bulbagarden.net/media/upload/0/02/OshawottMEPPromo51.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\051.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "052",
+    "name": "Grookey",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Grookey_(MEP_Promo_52)",
+    "image": "https://archives.bulbagarden.net/media/upload/4/48/GrookeyMEPPromo52.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\052.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "053",
+    "name": "Scorbunny",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Scorbunny_(MEP_Promo_53)",
+    "image": "https://archives.bulbagarden.net/media/upload/e/e5/ScorbunnyMEPPromo53.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\053.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "054",
+    "name": "Sobble",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Sobble_(MEP_Promo_54)",
+    "image": "https://archives.bulbagarden.net/media/upload/3/37/SobbleMEPPromo54.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\054.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "064",
+    "name": "Serperior",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Serperior_(MEP_Promo_64)",
+    "image": "https://archives.bulbagarden.net/media/upload/a/a7/SerperiorPerfectOrder6.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\064.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "065",
+    "name": "Barbaracle",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Barbaracle_(MEP_Promo_65)",
+    "image": "https://archives.bulbagarden.net/media/upload/5/50/BarbaracleMEPPromo65.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\065.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "066",
+    "name": "Tyrantrum",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Tyrantrum_(MEP_Promo_66)",
+    "image": "https://archives.bulbagarden.net/media/upload/c/c9/TyrantrumPerfectOrder45.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\066.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "067",
+    "name": "Doublade",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Doublade_(MEP_Promo_67)",
+    "image": "https://archives.bulbagarden.net/media/upload/f/f9/DoubladePerfectOrder57.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\067.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "068",
+    "name": "Makuhita",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Makuhita_(MEP_Promo_68)",
+    "image": "https://archives.bulbagarden.net/media/upload/c/c7/MakuhitaMegaEvolution72.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\068.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "069",
+    "name": "Chikorita",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Chikorita_(MEP_Promo_69)",
+    "image": "https://archives.bulbagarden.net/media/upload/a/a2/ChikoritaMegaEvolution8.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\069.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "070",
+    "name": "Tyrunt",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Tyrunt_(MEP_Promo_70)",
+    "image": "https://archives.bulbagarden.net/media/upload/6/66/TyruntPerfectOrder44.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\070.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "071",
+    "name": "Mega Zygarde",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Mega_Zygarde_ex_(MEP_Promo_71)",
+    "image": "https://archives.bulbagarden.net/media/upload/6/6e/MegaZygardeexPerfectOrder120.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\071.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "072",
+    "name": "Mega Clefable",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Mega_Clefable_ex_(MEP_Promo_72)",
+    "image": "https://archives.bulbagarden.net/media/upload/8/85/MegaClefableexPerfectOrder31.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\072.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "073",
+    "name": "Mega Gengar",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Mega_Gengar_ex_(MEP_Promo_73)",
+    "image": "https://archives.bulbagarden.net/media/upload/3/3c/MegaGengarexPhantasmalFlames56.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\073.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "074",
+    "name": "Delphox",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Delphox_(MEP_Promo_74)",
+    "image": "https://archives.bulbagarden.net/media/upload/6/67/DelphoxChaosRising13.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\074.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "075",
+    "name": "Ampharos",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Ampharos_(MEP_Promo_75)",
+    "image": "https://archives.bulbagarden.net/media/upload/b/bf/AmpharosChaosRising90.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\075.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "076",
+    "name": "Crobat",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Crobat_(MEP_Promo_76)",
+    "image": "https://archives.bulbagarden.net/media/upload/c/c3/CrobatChaosRising93.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\076.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "077",
+    "name": "Goodra",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Goodra_(MEP_Promo_77)",
+    "image": "https://archives.bulbagarden.net/media/upload/2/2e/GoodraMEPPromo77.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\077.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "078",
+    "name": "Toxel",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Toxel_(MEP_Promo_78)",
+    "image": "https://archives.bulbagarden.net/media/upload/4/4e/ToxelMEPPromo78.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\078.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "079",
+    "name": "Charmeleon",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Charmeleon_(MEP_Promo_79)",
+    "image": "https://archives.bulbagarden.net/media/upload/5/52/CharmeleonMEPPromo79.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\079.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "080",
+    "name": "Fennekin",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Fennekin_(MEP_Promo_80)",
+    "image": "https://archives.bulbagarden.net/media/upload/d/d7/FennekinChaosRising11.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\080.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "081",
+    "name": "Mega Greninja",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Mega_Greninja_ex_(MEP_Promo_81)",
+    "image": "https://archives.bulbagarden.net/media/upload/8/8b/MegaGreninjaexMEPPromo81.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\081.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "086",
+    "name": "Slowpoke",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Slowpoke_(MEP_Promo_86)",
+    "image": "https://archives.bulbagarden.net/media/upload/0/02/SlowpokeMPromo70.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\086.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "087",
+    "name": "Binacle",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Binacle_(MEP_Promo_87)",
+    "image": "https://archives.bulbagarden.net/media/upload/e/eb/BinaclePerfectOrder42.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\087.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "088",
+    "name": "Zarude",
+    "page": "https://bulbapedia.bulbagarden.net/wiki/Zarude_(MEP_Promo_88)",
+    "image": "https://archives.bulbagarden.net/media/upload/b/b6/ZarudeAbyssEye54.jpg",
+    "file": "MobileApp\\www\\cartas\\promos-megaevolucao\\088.jpg",
+    "status": "downloaded"
+  }
+]
