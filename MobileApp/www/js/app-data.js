@@ -110,6 +110,30 @@
     marketUpdatedAt: null
   }));
 
+  const starterPartnerCards = [
+    ["037", "Bulbasaur"],
+    ["038", "Charmander"],
+    ["039", "Squirtle"],
+    ["040", "Turtwig"],
+    ["041", "Chimchar"],
+    ["042", "Piplup"],
+    ["043", "Rowlet"],
+    ["044", "Litten"],
+    ["045", "Popplio"]
+  ].map(([number, name]) => ({
+    number,
+    name,
+    rarity: "PROMO",
+    quantity: 0,
+    owned: false,
+    favorite: false,
+    image: null,
+    marketPrice: null,
+    marketCurrency: null,
+    marketSource: null,
+    marketUpdatedAt: null
+  }));
+
   const baseCollections = [
     {
       id: "evolucoes-prismaticas",
@@ -140,12 +164,15 @@
     {
       id: "parceiros-iniciais",
       name: "Parceiros Iniciais",
-      total: 120,
-      owned: 90,
-      duplicated: 31,
-      rare: 15,
+      total: starterPartnerCards.length,
+      owned: 0,
+      duplicated: 0,
+      rare: 0,
       image: "colecao-parceiros-iniciais.png",
-      theme: "green"
+      theme: "green",
+      artFolder: "promos-megaevolucao",
+      artExtension: "jpg",
+      cards: starterPartnerCards
     },
     {
       id: "megaevolucao-base",
