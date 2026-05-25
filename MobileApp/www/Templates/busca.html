@@ -7,7 +7,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-title" content="Cartas" />
   <meta name="mobile-web-app-capable" content="yes" />
-  <title>Favoritas</title>
+  <title>Busca</title>
   <link rel="manifest" href="/manifest.webmanifest" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,9 +18,12 @@
       --card: rgba(255,255,255,.92);
       --text: #0d1733;
       --muted: #7d8496;
+      --line: #e7eaf2;
       --purple: #7758f6;
       --blue: #2563ff;
       --green: #4fb06d;
+      --orange: #f6aa24;
+      --red: #ef5f6c;
       --shadow-soft: 0 14px 30px rgba(30,42,90,.09);
       --nav-height: 86px;
     }
@@ -53,7 +56,10 @@
       height: 100%;
       overflow: hidden;
       border-radius: 36px;
-      background: var(--bg);
+      background:
+        radial-gradient(circle at 75% 3%, rgba(124, 91, 255, 0.13), transparent 26%),
+        radial-gradient(circle at 8% 18%, rgba(37, 99, 255, 0.08), transparent 30%),
+        #fbfcff;
     }
 
     .dynamic-island {
@@ -82,7 +88,9 @@
       height: calc(100% - 44px);
       overflow-y: auto;
       padding: 22px 22px calc(var(--nav-height) + 18px);
+      scrollbar-width: none;
     }
+    .app::-webkit-scrollbar { display: none; }
 
     .topbar {
       display: grid;
@@ -104,100 +112,59 @@
       box-shadow: var(--shadow-soft);
       cursor: pointer;
     }
-
     .icon-btn svg { width: 22px; height: 22px; }
     .page-title { margin: 0; text-align: center; font-size: 22px; font-weight: 900; letter-spacing: -.04em; }
 
-    .summary-card {
-      border-radius: 22px;
+    .search-card {
+      border-radius: 24px;
       background: var(--card);
-      border: 1px solid rgba(255,255,255,.8);
+      border: 1px solid rgba(255,255,255,.82);
       box-shadow: var(--shadow-soft);
-      padding: 16px;
-      margin-bottom: 16px;
+      padding: 14px;
+      margin-bottom: 14px;
     }
 
-    .summary-card strong { display: block; font-size: 28px; line-height: 1; font-weight: 900; }
-    .summary-card span { display: block; margin-top: 4px; color: var(--muted); font-size: 12px; font-weight: 800; }
-
-    .favorites-grid {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 12px;
+    .search {
+      height: 50px;
+      border-radius: 999px;
+      background: rgba(255,255,255,.86);
+      border: 1px solid rgba(220,224,235,.9);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 0 16px;
+      color: var(--muted);
+      font-weight: 600;
+      box-shadow: 0 10px 22px rgba(30,42,90,.06);
     }
-
-    .favorite-card {
-      position: relative;
-      min-height: 208px;
-      border: 1px solid rgba(255,255,255,.85);
-      border-radius: 18px;
-      overflow: hidden;
-      background: rgba(255,255,255,.9);
-      box-shadow: var(--shadow-soft);
-    }
-
-    .favorite-open {
+    .search svg { width: 20px; height: 20px; color: #596275; }
+    .search input {
+      min-width: 0;
       width: 100%;
       border: 0;
-      padding: 0;
+      outline: 0;
       background: transparent;
-      color: inherit;
-      text-align: left;
+      color: var(--text);
       font: inherit;
-      cursor: pointer;
+    }
+    .search input::placeholder { color: var(--muted); opacity: 1; }
+
+    .result-meta {
+      margin: 10px 2px 0;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
     }
 
-    .favorite-art {
-      height: 132px;
-      margin: 6px;
-      border-radius: 16px;
+    .cards-grid {
       display: grid;
-      place-items: center;
-      overflow: hidden;
-      background: linear-gradient(135deg, rgba(119,88,246,.18), rgba(37,99,255,.12));
-      color: rgba(13,23,51,.42);
-      font-size: 22px;
-      font-weight: 900;
-    }
-
-    .favorite-art img {
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-      display: block;
-    }
-
-    .favorite-info { padding: 0 9px 10px; }
-    .favorite-number { margin: 0 0 2px; color: var(--muted); font-size: 10px; font-weight: 900; }
-    .favorite-name { margin: 0; min-height: 28px; font-size: 12px; line-height: 1.15; font-weight: 900; letter-spacing: -.02em; }
-    .favorite-collection { margin: 6px 0 0; color: var(--muted); font-size: 9px; line-height: 1.1; font-weight: 800; }
-
-    .favorite-remove {
-      position: absolute;
-      left: 12px;
-      top: 112px;
-      width: 30px;
-      height: 30px;
-      border: 0;
-      border-radius: 50%;
-      display: grid;
-      place-items: center;
-      color: #fff;
-      background: linear-gradient(135deg, #ff5d7d, #7758f6);
-      box-shadow: 0 8px 18px rgba(13,23,51,.18);
-      cursor: pointer;
-    }
-
-    .favorite-remove svg {
-      width: 17px;
-      height: 17px;
-      fill: currentColor;
-      stroke-width: 2.5;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
     }
 
     .empty-state {
       grid-column: 1 / -1;
-      padding: 48px 18px;
+      padding: 38px 18px;
       border-radius: 22px;
       text-align: center;
       color: var(--muted);
@@ -207,6 +174,128 @@
       font-weight: 800;
       box-shadow: var(--shadow-soft);
     }
+
+    .pokemon-card {
+      background: rgba(255,255,255,.88);
+      border: 1px solid rgba(255,255,255,.85);
+      border-radius: 18px;
+      box-shadow: var(--shadow-soft);
+      overflow: hidden;
+      position: relative;
+    }
+
+    .card-art {
+      aspect-ratio: 3 / 4;
+      border: 0;
+      border-radius: 16px;
+      margin: 6px;
+      width: calc(100% - 12px);
+      display: grid;
+      place-items: center;
+      position: relative;
+      overflow: hidden;
+      color: inherit;
+      font: inherit;
+      cursor: pointer;
+    }
+    .card-art img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      display: block;
+    }
+    .card-art-number {
+      font-size: 22px;
+      font-weight: 900;
+      color: rgba(13, 23, 51, .42);
+    }
+    .art-1 { background: linear-gradient(135deg, rgba(119,88,246,.22), rgba(37,99,255,.11)); }
+    .art-2 { background: linear-gradient(135deg, rgba(246,170,36,.24), rgba(239,95,108,.13)); }
+    .art-3 { background: linear-gradient(135deg, rgba(79,176,109,.20), rgba(37,99,255,.10)); }
+    .art-4 { background: linear-gradient(135deg, rgba(37,99,255,.17), rgba(119,88,246,.16)); }
+    .art-5 { background: linear-gradient(135deg, rgba(79,176,109,.18), rgba(246,170,36,.14)); }
+    .art-6 { background: linear-gradient(135deg, rgba(13,23,51,.16), rgba(119,88,246,.22)); }
+    .art-7 { background: linear-gradient(135deg, rgba(239,95,108,.18), rgba(119,88,246,.16)); }
+    .art-8 { background: linear-gradient(135deg, rgba(37,99,255,.18), rgba(79,176,109,.14)); }
+    .art-9 { background: linear-gradient(135deg, rgba(119,88,246,.18), rgba(246,170,36,.16)); }
+
+    .favorite-card-btn {
+      position: absolute;
+      left: 12px;
+      top: 112px;
+      z-index: 3;
+      width: 30px;
+      height: 30px;
+      border: 1px solid rgba(255, 93, 125, .28);
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      color: #ff5d7d;
+      background: rgba(255,255,255,.96);
+      box-shadow: 0 8px 18px rgba(13, 23, 51, .18);
+      cursor: pointer;
+    }
+    .favorite-card-btn.is-favorite {
+      color: #fff;
+      background: linear-gradient(135deg, #ff5d7d, #7758f6);
+    }
+    .favorite-card-btn svg {
+      width: 17px;
+      height: 17px;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2.5;
+    }
+    .favorite-card-btn.is-favorite svg { fill: currentColor; }
+
+    .quantity-badge {
+      position: absolute;
+      left: 8px;
+      top: 8px;
+      min-width: 28px;
+      height: 22px;
+      border-radius: 999px;
+      display: inline-grid;
+      place-items: center;
+      padding: 0 7px;
+      background: rgba(13, 23, 51, .82);
+      color: #fff;
+      font-size: 11px;
+      font-weight: 900;
+      box-shadow: 0 8px 16px rgba(13, 23, 51, .18);
+    }
+
+    .card-info { padding: 0 9px 10px; }
+    .card-number { margin: 0 0 2px; color: var(--muted); font-size: 10px; font-weight: 900; }
+    .card-name { margin: 0; min-height: 28px; font-size: 12px; line-height: 1.15; font-weight: 900; letter-spacing: -.02em; }
+    .card-collection { margin: 6px 0 0; color: var(--muted); font-size: 9px; line-height: 1.1; font-weight: 800; }
+    .card-meta-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 6px;
+      margin-top: 7px;
+    }
+    .rarity {
+      display: inline-flex;
+      height: 20px;
+      align-items: center;
+      border-radius: 999px;
+      padding: 0 7px;
+      font-size: 9px;
+      font-weight: 900;
+      color: #fff;
+      background: var(--blue);
+      max-width: 74px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .rarity.common { background: var(--green); }
+    .rarity.rare { background: var(--purple); }
+    .rarity.epic { background: #1f2652; }
+    .rarity.secret { background: linear-gradient(135deg, var(--orange), var(--red)); }
+    .card-price { color: var(--text); font-size: 10px; font-weight: 900; white-space: nowrap; }
 
     .nav {
       position: absolute;
@@ -225,7 +314,6 @@
       box-shadow: 0 -18px 34px rgba(30,42,90,.08);
       z-index: 30;
     }
-
     .nav-item {
       border: 0;
       background: transparent;
@@ -241,7 +329,6 @@
       text-decoration: none;
       cursor: pointer;
     }
-
     .nav-item svg { width: 23px; height: 23px; stroke-width: 2.2; }
     .nav-item.active { color: var(--purple); }
 
@@ -254,62 +341,73 @@
       justify-content: center;
       padding: 20px;
     }
-
     .card-modal.is-open { display: flex; }
-
     .card-modal-backdrop {
       position: absolute;
       inset: 0;
-      background: rgba(8, 12, 28, .52);
-      backdrop-filter: blur(10px);
+      background: rgba(7, 10, 20, .58);
+      backdrop-filter: blur(14px);
     }
-
     .card-modal-panel {
-      position: relative;
       width: min(380px, 100%);
-      max-height: min(780px, 92vh);
-      overflow-y: auto;
-      border-radius: 26px;
-      padding: 18px;
-      background: rgba(255,255,255,.96);
+      max-height: calc(100dvh - 34px);
+      overflow: auto;
+      position: relative;
+      z-index: 1;
+      border-radius: 28px;
+      background: #fbfcff;
       box-shadow: 0 28px 80px rgba(4, 8, 22, .38);
+      padding: 18px 18px 20px;
     }
-
     .card-modal-close {
       position: absolute;
-      top: 14px;
-      right: 14px;
-      z-index: 2;
+      top: 12px;
+      right: 12px;
       width: 38px;
       height: 38px;
       border: 2px solid rgba(255, 255, 255, .92);
       border-radius: 50%;
-      display: grid;
-      place-items: center;
       background: #ef3f54;
       color: #fff;
       font-size: 26px;
       font-weight: 800;
       line-height: 1;
+      display: grid;
+      place-items: center;
       cursor: pointer;
       box-shadow: 0 12px 26px rgba(239, 63, 84, .38), 0 6px 14px rgba(13, 23, 51, .22);
+      z-index: 2;
     }
-
     .card-modal-image {
-      display: block;
-      width: min(100%, 290px);
-      max-height: 520px;
+      width: 100%;
+      max-height: 62dvh;
       object-fit: contain;
-      margin: 8px auto 16px;
-      border-radius: 18px;
-      box-shadow: 0 18px 42px rgba(13,23,51,.22);
-      background: #eef1f8;
+      display: block;
+      border-radius: 20px;
+      background: linear-gradient(135deg, rgba(119,88,246,.14), rgba(37,99,255,.08));
     }
-
-    .card-modal-info { text-align: center; }
-    .card-modal-number { margin: 0 0 5px; color: var(--muted); font-size: 12px; font-weight: 900; }
-    .card-modal-title { margin: 0; font-size: 21px; line-height: 1.12; font-weight: 900; letter-spacing: -.04em; }
-    .card-modal-meta { margin: 8px 0 0; color: var(--muted); font-size: 13px; font-weight: 800; }
+    .card-modal-info { text-align: center; padding: 14px 6px 12px; }
+    .card-modal-number { margin: 0 0 4px; color: var(--muted); font-size: 12px; font-weight: 800; }
+    .card-modal-title { margin: 0 0 6px; font-size: 22px; line-height: 1.1; font-weight: 900; }
+    .card-modal-price { margin: 0 0 6px; color: var(--blue); font-size: 20px; font-weight: 900; }
+    .card-modal-status { margin: 0; color: var(--muted); font-size: 13px; font-weight: 800; }
+    .card-modal-actions { display: flex; justify-content: center; gap: 10px; }
+    .card-modal-actions.two-actions { display: grid; grid-template-columns: 1fr 1fr; }
+    .modal-btn {
+      min-height: 48px;
+      border: 0;
+      border-radius: 999px;
+      padding: 0 20px;
+      font-size: 14px;
+      font-weight: 900;
+      cursor: pointer;
+    }
+    .modal-btn.primary {
+      color: #fff;
+      background: linear-gradient(135deg, var(--blue), var(--purple));
+      box-shadow: 0 14px 28px rgba(82, 87, 246, .28);
+    }
+    .modal-btn.secondary { color: var(--text); background: #edf0f7; }
 
     @media (max-width: 768px) {
       body { display: block; padding: 0; background: #fbfcff; }
@@ -329,7 +427,7 @@
   </style>
 </head>
 <body>
-  <main class="phone" aria-label="Favoritas">
+  <main class="phone" aria-label="Busca de cartas">
     <section class="screen">
       <div class="dynamic-island" aria-hidden="true"></div>
       <header class="statusbar" aria-label="Barra de status">
@@ -342,32 +440,35 @@
           <button class="icon-btn" type="button" aria-label="Voltar" data-nav="collections">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
           </button>
-          <h1 class="page-title">Favoritas</h1>
+          <h1 class="page-title">Busca</h1>
           <span aria-hidden="true"></span>
         </div>
 
-        <section class="summary-card" aria-label="Resumo de favoritas">
-          <strong data-favorites-count>0</strong>
-          <span>Cartas favoritas</span>
+        <section class="search-card" aria-label="Buscar cartas">
+          <label class="search">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            <input type="search" data-global-search placeholder="Buscar por nome ou número..." autocomplete="off" inputmode="search">
+          </label>
+          <p class="result-meta" data-result-meta>Digite para buscar em todas as coleções.</p>
         </section>
 
-        <section class="favorites-grid" aria-label="Lista de cartas favoritas"></section>
+        <section class="cards-grid" aria-label="Resultado da busca"></section>
       </div>
 
       <nav class="nav" aria-label="Navegação principal">
-        <button class="nav-item" type="button" data-nav="home" aria-label="In&iacute;cio">
+        <button class="nav-item" type="button" data-nav="home" aria-label="Início">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m3 11 9-8 9 8"/><path d="M5 10v10h14V10"/></svg>
-          <span>In&iacute;cio</span>
+          <span>Início</span>
         </button>
-        <button class="nav-item" type="button" data-nav="collections" aria-label="Cole&ccedil;&otilde;es">
+        <button class="nav-item" type="button" data-nav="collections" aria-label="Coleções">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="12" height="12" rx="2"/><rect x="4" y="4" width="12" height="12" rx="2"/></svg>
-          <span>Cole&ccedil;&otilde;es</span>
+          <span>Coleções</span>
         </button>
-        <button class="nav-item" type="button" data-nav="search" aria-label="Busca">
+        <button class="nav-item active" type="button" aria-label="Busca">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
           <span>Busca</span>
         </button>
-        <button class="nav-item active" type="button" aria-label="Favoritas">
+        <button class="nav-item" type="button" data-nav="favorites" aria-label="Favoritas">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 1 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8Z"/></svg>
           <span>Favoritas</span>
         </button>
@@ -379,6 +480,6 @@
     </section>
   </main>
   <script src="../js/app-data.js"></script>
-  <script src="../js/favoritos.js"></script>
+  <script src="../js/busca.js"></script>
 </body>
 </html>

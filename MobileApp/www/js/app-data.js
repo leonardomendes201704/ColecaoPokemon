@@ -443,6 +443,22 @@
       return cardsFor(state, collectionId);
     },
 
+    async listAllCards() {
+      const state = readState();
+      return state.collections.flatMap((collection) => {
+        const collectionWithStats = collectionStats(state, collection);
+        return cardsFor(state, collection.id).map((card) => ({
+          ...card,
+          collectionId: collection.id,
+          collectionName: collection.name,
+          collectionTheme: collection.theme,
+          collectionImage: collection.image,
+          collectionOwned: collectionWithStats.owned,
+          collectionTotal: collectionWithStats.total
+        }));
+      });
+    },
+
     async listFavoriteCards() {
       const state = readState();
       return state.collections.flatMap((collection) => {

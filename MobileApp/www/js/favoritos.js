@@ -10,6 +10,10 @@
     return location.pathname.includes("/Templates/") ? "perfil.html" : "Templates/perfil.html";
   }
 
+  function searchPath() {
+    return location.pathname.includes("/Templates/") ? "busca.html" : "Templates/busca.html";
+  }
+
   function cardImagePath(fileName) {
     if (/^https?:\/\//i.test(fileName || "")) return fileName;
     return `${location.pathname.includes("/Templates/") ? "../" : ""}${fileName}`;
@@ -70,6 +74,7 @@
         const target = {
           home: indexPath(),
           collections: indexPath(),
+          search: searchPath(),
           profile: profilePath()
         }[item.dataset.nav];
         if (target) window.location.href = target;

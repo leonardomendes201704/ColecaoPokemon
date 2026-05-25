@@ -96,6 +96,7 @@
         const target = {
           profile: `${inTemplates ? "" : "Templates/"}perfil.html`,
           favorites: `${inTemplates ? "" : "Templates/"}favoritos.html`,
+          search: `${inTemplates ? "" : "Templates/"}busca.html`,
           home: `${inTemplates ? "../" : ""}index.html`,
           collections: `${inTemplates ? "../" : ""}index.html`
         }[button.dataset.nav];

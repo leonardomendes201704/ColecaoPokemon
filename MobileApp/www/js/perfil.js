@@ -9,10 +9,19 @@
     return location.pathname.includes("/Templates/") ? "favoritos.html" : "Templates/favoritos.html";
   }
 
+  function searchPath() {
+    return location.pathname.includes("/Templates/") ? "busca.html" : "Templates/busca.html";
+  }
+
   function bindNavigation() {
     document.querySelectorAll("[data-nav]").forEach((item) => {
       item.addEventListener("click", () => {
-        const target = item.dataset.nav === "favorites" ? favoritesPath() : indexPath();
+        const target = {
+          favorites: favoritesPath(),
+          search: searchPath(),
+          home: indexPath(),
+          collections: indexPath()
+        }[item.dataset.nav];
         window.location.href = target;
       });
     });

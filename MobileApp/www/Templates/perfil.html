@@ -226,9 +226,9 @@
       border-top: 1px solid rgba(230,233,242,.9);
       border-radius: 30px 30px 36px 36px;
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(5, 1fr);
       align-items: center;
-      padding: 8px 18px 12px;
+      padding: 8px 12px 12px;
       box-shadow: 0 -18px 34px rgba(30,42,90,.08);
       z-index: 30;
     }
@@ -243,13 +243,13 @@
       gap: 4px;
       color: #3e4658;
       font: inherit;
-      font-size: 11px;
+      font-size: 10px;
       font-weight: 700;
       text-decoration: none;
       cursor: pointer;
     }
 
-    .nav-item svg { width: 24px; height: 24px; stroke-width: 2.2; }
+    .nav-item svg { width: 23px; height: 23px; stroke-width: 2.2; }
     .nav-item.active { color: var(--purple); }
     .nav-item.disabled { color: rgba(62,70,88,.36); cursor: default; }
 
@@ -319,6 +319,10 @@
         <button class="nav-item" type="button" data-nav="collections" aria-label="Cole&ccedil;&otilde;es">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="12" height="12" rx="2"/><rect x="4" y="4" width="12" height="12" rx="2"/></svg>
           <span>Cole&ccedil;&otilde;es</span>
+        </button>
+        <button class="nav-item" type="button" data-nav="search" aria-label="Busca">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          <span>Busca</span>
         </button>
         <button class="nav-item" type="button" data-nav="favorites" aria-label="Favoritas">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 1 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8Z"/></svg>
