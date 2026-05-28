@@ -177,7 +177,8 @@
           name: "Pikachu",
           rarity: "Comum",
           variant: "Dia do Pokemon 30 Anos",
-          promoStamp: true
+          promoStamp: true,
+          image: "cartas/forcas-temporais/051.jpg"
         }
       }
     },
@@ -265,7 +266,7 @@
         quantity,
         owned: quantity > 0,
         favorite: false,
-        image: hasLocalArt ? `cartas/${collection.artFolder}/${number}.png` : null,
+        image: meta.image || (hasLocalArt ? `cartas/${collection.artFolder}/${number}.png` : null),
         variant: meta.variant || null,
         promoStamp: Boolean(meta.promoStamp),
         marketPrice: null,
@@ -364,7 +365,7 @@
           ...existingCard,
           name: existingCard.name && !/^Carta \d+$/i.test(existingCard.name) ? existingCard.name : baseCard.name,
           rarity: existingCard.rarity || baseCard.rarity,
-          image: existingCard.image || baseCard.image,
+          image: baseCard.image || existingCard.image,
           variant: baseCard.variant || existingCard.variant || null,
           promoStamp: Boolean(baseCard.promoStamp || existingCard.promoStamp)
         };
