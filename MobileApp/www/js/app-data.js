@@ -297,10 +297,17 @@
     const cards = cardsFor(state, collection.id);
     const owned = cards.filter((card) => card.quantity > 0).length;
     const duplicated = cards.reduce((total, card) => total + Math.max(card.quantity - 1, 0), 0);
+    const valueByCurrency = cards
+      .filter((card) => card.quantity > 0 && typeof card.marketPrice === "number" && card.marketCurrency)
+      .reduce((totals, card) => {
+        totals[card.marketCurrency] = (totals[card.marketCurrency] || 0) + card.marketPrice;
+        return totals;
+      }, {});
     return {
       ...collection,
       owned,
       duplicated,
+      valueByCurrency,
       total: collection.total || cards.length
     };
   }
