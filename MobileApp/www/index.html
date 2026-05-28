@@ -219,9 +219,10 @@
       border: 1px solid rgba(255,255,255,0.72);
       border-radius: 24px;
       box-shadow: var(--shadow);
-      padding: 24px 12px;
+      padding: 14px 12px;
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
       margin-bottom: 22px;
     }
 
@@ -231,36 +232,32 @@
       padding: 0 6px;
     }
 
-    .stat:not(:last-child)::after {
-      content: "";
-      position: absolute;
-      top: 12px;
-      right: 0;
-      height: 74px;
-      width: 1px;
-      background: var(--line);
-    }
-
     .stat-icon {
-      width: 58px;
-      height: 58px;
+      width: 44px;
+      height: 44px;
       border-radius: 50%;
-      margin: 0 auto 12px;
+      margin: 0 auto 8px;
       display: grid;
       place-items: center;
     }
 
-    .stat-icon svg { width: 29px; height: 29px; }
+    .stat-icon svg { width: 24px; height: 24px; }
     .stat-icon.purple { color: var(--purple); background: rgba(119, 88, 246, 0.16); }
     .stat-icon.green { color: var(--green); background: rgba(79, 176, 109, 0.15); }
     .stat-icon.orange { color: var(--orange); background: rgba(246, 170, 36, 0.18); }
+    .stat-icon.blue { color: var(--blue); background: rgba(37, 99, 255, 0.14); }
 
     .stat strong {
       display: block;
-      font-size: 28px;
+      font-size: 22px;
       line-height: 1.1;
       font-weight: 800;
       letter-spacing: -0.04em;
+    }
+
+    .stat.value strong {
+      font-size: 18px;
+      letter-spacing: -0.03em;
     }
 
     .stat span {
@@ -569,6 +566,17 @@
             </div>
             <strong id="totalDuplicadas">0</strong>
             <span>Duplicatas</span>
+          </article>
+
+          <article class="stat value">
+            <div class="stat-icon blue">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2v20"/>
+                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7H14a3.5 3.5 0 0 1 0 7H6"/>
+              </svg>
+            </div>
+            <strong id="valorTotal">R$ 0,00</strong>
+            <span>Valor</span>
           </article>
         </section>
 

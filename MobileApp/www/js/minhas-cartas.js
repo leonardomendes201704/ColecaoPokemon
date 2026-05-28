@@ -56,6 +56,10 @@
     }).format(value || 0);
   }
 
+  function totalValueInBrl(collections) {
+    return collections.reduce((total, collection) => total + collectionValueInBrl(collection), 0);
+  }
+
   function countUp(id, targetValue) {
     const node = document.getElementById(id);
     if (!node) return;
@@ -84,6 +88,37 @@
     }
 
     node.textContent = formatter.format(0);
+    requestAnimationFrame(tick);
+  }
+
+  function countUpMoney(id, targetValue) {
+    const node = document.getElementById(id);
+    if (!node) return;
+
+    const target = Number(targetValue) || 0;
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    if (reduceMotion || target === 0) {
+      node.textContent = formatBrlValue(target);
+      return;
+    }
+
+    const duration = 700;
+    const start = performance.now();
+
+    function tick(now) {
+      const progress = Math.min((now - start) / duration, 1);
+      const eased = 1 - Math.pow(1 - progress, 3);
+      node.textContent = formatBrlValue(target * eased);
+
+      if (progress < 1) {
+        requestAnimationFrame(tick);
+      } else {
+        node.textContent = formatBrlValue(target);
+      }
+    }
+
+    node.textContent = formatBrlValue(0);
     requestAnimationFrame(tick);
   }
 
@@ -127,6 +162,7 @@
     countUp("totalCartas", summary.totalCards);
     countUp("totalColecoes", summary.totalCollections);
     countUp("totalDuplicadas", summary.duplicated);
+    countUpMoney("valorTotal", totalValueInBrl(collections));
 
     const list = document.querySelector(".collections");
     if (list) {
