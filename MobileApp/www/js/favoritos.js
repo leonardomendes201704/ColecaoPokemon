@@ -60,7 +60,7 @@
     const image = modal.querySelector(".card-modal-image");
     image.src = card.image ? cardImagePath(card.image) : "";
     image.alt = card.name;
-    modal.querySelector(".card-modal-number").textContent = `${card.number} • ${card.rarity}`;
+    modal.querySelector(".card-modal-number").textContent = `${card.number} • ${card.rarity}${card.variant ? ` • ${card.variant}` : ""}`;
     modal.querySelector(".card-modal-title").textContent = card.name;
     modal.querySelector(".card-modal-meta").textContent = card.collectionName;
     modal.classList.add("is-open");
@@ -93,7 +93,7 @@
       <button class="favorite-open" type="button" aria-label="Visualizar ${card.name}">
         <div class="favorite-art">${art}</div>
         <div class="favorite-info">
-          <p class="favorite-number">${card.number}</p>
+          <p class="favorite-number">${card.number}${card.variant ? ` • ${card.variant}` : ""}</p>
           <h2 class="favorite-name">${card.name}</h2>
           <p class="favorite-collection">${card.collectionName}</p>
         </div>

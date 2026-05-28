@@ -113,13 +113,15 @@
     const number = String(card.number || "").toLocaleLowerCase("pt-BR");
     const name = String(card.name || "").toLocaleLowerCase("pt-BR");
     const collection = String(card.collectionName || "").toLocaleLowerCase("pt-BR");
+    const variant = String(card.variant || "").toLocaleLowerCase("pt-BR");
     const normalizedNumber = number.replace(/^0+/, "");
     const normalizedTerm = term.replace(/^0+/, "");
 
     return number.includes(term)
       || normalizedNumber.includes(normalizedTerm)
       || name.includes(term)
-      || collection.includes(term);
+      || collection.includes(term)
+      || variant.includes(term);
   }
 
   function filteredCards() {
@@ -185,7 +187,7 @@
     const actions = modal.querySelector(".card-modal-actions");
     image.src = card.image ? cardImagePath(card.image) : "";
     image.alt = card.name;
-    modal.querySelector(".card-modal-number").textContent = `${card.collectionName} • ${card.number} • ${card.rarity}`;
+    modal.querySelector(".card-modal-number").textContent = `${card.collectionName} • ${card.number} • ${card.rarity}${card.variant ? ` • ${card.variant}` : ""}`;
     modal.querySelector(".card-modal-title").textContent = card.name;
     modal.querySelector(".card-modal-price").textContent = formatPriceDetail(card);
     modal.querySelector(".card-modal-status").textContent = card.quantity > 0 ? `${card.quantity} na coleção` : "Nova carta";
@@ -238,7 +240,7 @@
       </button>
       ${favoriteButton}
       <div class="card-info">
-        <p class="card-number">${card.number}</p>
+        <p class="card-number">${card.number}${card.variant ? ` • ${card.variant}` : ""}</p>
         <h2 class="card-name">${card.name}</h2>
         <p class="card-collection">${card.collectionName}</p>
         <div class="card-meta-row">

@@ -319,7 +319,7 @@
     const actions = modal.querySelector(".card-modal-actions");
     image.src = card.image ? cardImagePath(card.image) : "";
     image.alt = card.name;
-    updateText(".card-modal-number", `${card.number} • ${card.rarity}`);
+    updateText(".card-modal-number", `${card.number} • ${card.rarity}${card.variant ? ` • ${card.variant}` : ""}`);
     updateText(".card-modal-title", card.name);
     updateText(".card-modal-price", formatPriceDetail(card));
     updateText(".card-modal-status", card.quantity > 0 ? `${card.quantity} na coleção` : "Nova carta");
@@ -371,7 +371,7 @@
       </button>
       ${favoriteButton}
       <div class="card-info">
-        <p class="card-number">${card.number}</p>
+        <p class="card-number">${card.number}${card.variant ? ` • ${card.variant}` : ""}</p>
         <h4 class="card-name">${card.name}</h4>
         <div class="card-meta-row">
           <span class="rarity ${rarityClass(card.rarity)}" aria-label="${card.rarity}" title="${card.rarity}">${rarityStars(card.rarity)}</span>

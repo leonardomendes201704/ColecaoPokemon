@@ -162,6 +162,26 @@
       marketQuery: "set.name:\"Phantasmal Flames\""
     },
     {
+      id: "forcas-temporais",
+      name: "Forcas Temporais",
+      total: 162,
+      owned: 0,
+      duplicated: 0,
+      rare: 0,
+      image: "colecao-forcas-temporais.svg",
+      theme: "blue",
+      artCount: 162,
+      marketQuery: "set.id:sv5",
+      cardMeta: {
+        "051": {
+          name: "Pikachu",
+          rarity: "Comum",
+          variant: "Dia do Pokemon 30 Anos",
+          promoStamp: true
+        }
+      }
+    },
+    {
       id: "parceiros-iniciais",
       name: "Parceiros Iniciais",
       total: starterPartnerCards.length,
@@ -221,6 +241,8 @@
           owned: quantity > 0,
           favorite: Boolean(card.favorite),
           image: card.image || localImage,
+          variant: card.variant || null,
+          promoStamp: Boolean(card.promoStamp),
           marketPrice: card.marketPrice || null,
           marketCurrency: card.marketCurrency || null,
           marketSource: card.marketSource || null,
@@ -234,15 +256,18 @@
       const number = String(index + 1).padStart(3, "0");
       const quantity = 0;
       const hasLocalArt = collection.artFolder && (!collection.artLocalCount || index < collection.artLocalCount);
+      const meta = collection.cardMeta && collection.cardMeta[number] || {};
       return {
         id: `${collection.id}-${number}`,
         number,
-        name: `Carta ${number}`,
-        rarity: rarities[index % rarities.length],
+        name: meta.name || `Carta ${number}`,
+        rarity: meta.rarity || rarities[index % rarities.length],
         quantity,
         owned: quantity > 0,
         favorite: false,
         image: hasLocalArt ? `cartas/${collection.artFolder}/${number}.png` : null,
+        variant: meta.variant || null,
+        promoStamp: Boolean(meta.promoStamp),
         marketPrice: null,
         marketCurrency: null,
         marketSource: null,
@@ -334,11 +359,19 @@
       const mergedCards = baseCards.map((baseCard) => {
         const existingCard = existingById.get(baseCard.id);
         if (!existingCard) return baseCard;
-        if (!existingCard.image && baseCard.image) {
+        const mergedCard = {
+          ...baseCard,
+          ...existingCard,
+          name: existingCard.name && !/^Carta \d+$/i.test(existingCard.name) ? existingCard.name : baseCard.name,
+          rarity: existingCard.rarity || baseCard.rarity,
+          image: existingCard.image || baseCard.image,
+          variant: baseCard.variant || existingCard.variant || null,
+          promoStamp: Boolean(baseCard.promoStamp || existingCard.promoStamp)
+        };
+        if (JSON.stringify(mergedCard) !== JSON.stringify(existingCard)) {
           changed = true;
-          return { ...existingCard, image: baseCard.image };
         }
-        return existingCard;
+        return mergedCard;
       });
 
       if (mergedCards.length !== existingCards.length) changed = true;
@@ -556,8 +589,11 @@
         const apiCard = byNumber.get(normalizeNumber(card.number));
         if (!apiCard) return;
         const marketValue = marketValueFor(apiCard);
-        card.name = apiCard.name || card.name;
-        card.rarity = apiCard.rarity || card.rarity;
+        const baseMeta = collection.cardMeta && collection.cardMeta[card.number] || {};
+        card.name = baseMeta.name || apiCard.name || card.name;
+        card.rarity = baseMeta.rarity || apiCard.rarity || card.rarity;
+        card.variant = baseMeta.variant || card.variant || null;
+        card.promoStamp = Boolean(baseMeta.promoStamp || card.promoStamp);
         card.image = card.image || cardImageFor(apiCard);
         if (marketValue) {
           Object.assign(card, marketValue);
