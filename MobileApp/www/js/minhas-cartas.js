@@ -131,7 +131,10 @@
     const list = document.querySelector(".collections");
     if (list) {
       list.innerHTML = "";
-      collections.forEach((collection) => list.appendChild(collectionCard(collection)));
+      collections
+        .map((collection, index) => ({ collection, index }))
+        .sort((a, b) => (b.collection.owned - a.collection.owned) || (a.index - b.index))
+        .forEach(({ collection }) => list.appendChild(collectionCard(collection)));
     }
   }
 
