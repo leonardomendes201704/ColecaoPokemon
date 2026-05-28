@@ -1,0 +1,974 @@
+[
+  {
+    "number": "001",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_001_162/pokemon_tef_001_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\001.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "002",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_002_162/pokemon_tef_002_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\002.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "003",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_003_162/pokemon_tef_003_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\003.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "004",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_004_162/pokemon_tef_004_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\004.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "005",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_005_162/pokemon_tef_005_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\005.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "006",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_006_162/pokemon_tef_006_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\006.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "007",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_007_162/pokemon_tef_007_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\007.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "008",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_008_162/pokemon_tef_008_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\008.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "009",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_009_162/pokemon_tef_009_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\009.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "010",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_010_162/pokemon_tef_010_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\010.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "011",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_011_162/pokemon_tef_011_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\011.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "012",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_012_162/pokemon_tef_012_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\012.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "013",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_013_162/pokemon_tef_013_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\013.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "014",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_014_162/pokemon_tef_014_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\014.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "015",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_015_162/pokemon_tef_015_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\015.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "016",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_016_162/pokemon_tef_016_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\016.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "017",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_017_162/pokemon_tef_017_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\017.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "018",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_018_162/pokemon_tef_018_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\018.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "019",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_019_162/pokemon_tef_019_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\019.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "020",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_020_162/pokemon_tef_020_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\020.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "021",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_021_162/pokemon_tef_021_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\021.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "022",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_022_162/pokemon_tef_022_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\022.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "023",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_023_162/pokemon_tef_023_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\023.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "024",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_024_162/pokemon_tef_024_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\024.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "025",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_025_162/pokemon_tef_025_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\025.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "026",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_026_162/pokemon_tef_026_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\026.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "027",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_027_162/pokemon_tef_027_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\027.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "028",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_028_162/pokemon_tef_028_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\028.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "029",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_029_162/pokemon_tef_029_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\029.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "030",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_030_162/pokemon_tef_030_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\030.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "031",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_031_162/pokemon_tef_031_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\031.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "032",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_032_162/pokemon_tef_032_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\032.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "033",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_033_162/pokemon_tef_033_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\033.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "034",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_034_162/pokemon_tef_034_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\034.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "035",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_035_162/pokemon_tef_035_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\035.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "036",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_036_162/pokemon_tef_036_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\036.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "037",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_037_162/pokemon_tef_037_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\037.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "038",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_038_162/pokemon_tef_038_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\038.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "039",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_039_162/pokemon_tef_039_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\039.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "040",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_040_162/pokemon_tef_040_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\040.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "041",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_041_162/pokemon_tef_041_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\041.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "042",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_042_162/pokemon_tef_042_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\042.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "043",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_043_162/pokemon_tef_043_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\043.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "044",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_044_162/pokemon_tef_044_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\044.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "045",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_045_162/pokemon_tef_045_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\045.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "046",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_046_162/pokemon_tef_046_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\046.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "047",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_047_162/pokemon_tef_047_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\047.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "048",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_048_162/pokemon_tef_048_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\048.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "049",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_049_162/pokemon_tef_049_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\049.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "050",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_050_162/pokemon_tef_050_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\050.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "051",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_051_162/pokemon_tef_051_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\051.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "052",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_052_162/pokemon_tef_052_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\052.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "053",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_053_162/pokemon_tef_053_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\053.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "054",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_054_162/pokemon_tef_054_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\054.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "055",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_055_162/pokemon_tef_055_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\055.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "056",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_056_162/pokemon_tef_056_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\056.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "057",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_057_162/pokemon_tef_057_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\057.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "058",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_058_162/pokemon_tef_058_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\058.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "059",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_059_162/pokemon_tef_059_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\059.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "060",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_060_162/pokemon_tef_060_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\060.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "061",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_061_162/pokemon_tef_061_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\061.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "062",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_062_162/pokemon_tef_062_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\062.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "063",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_063_162/pokemon_tef_063_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\063.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "064",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_064_162/pokemon_tef_064_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\064.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "065",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_065_162/pokemon_tef_065_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\065.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "066",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_066_162/pokemon_tef_066_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\066.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "067",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_067_162/pokemon_tef_067_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\067.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "068",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_068_162/pokemon_tef_068_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\068.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "069",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_069_162/pokemon_tef_069_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\069.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "070",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_070_162/pokemon_tef_070_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\070.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "071",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_071_162/pokemon_tef_071_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\071.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "072",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_072_162/pokemon_tef_072_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\072.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "073",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_073_162/pokemon_tef_073_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\073.jpg",
+    "status": "downloaded"
+  },
+  {
+    "number": "074",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_074_162/pokemon_tef_074_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\074.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "075",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_075_162/pokemon_tef_075_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\075.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "076",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_076_162/pokemon_tef_076_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\076.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "077",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_077_162/pokemon_tef_077_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\077.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "078",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_078_162/pokemon_tef_078_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\078.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "079",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_079_162/pokemon_tef_079_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\079.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "080",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_080_162/pokemon_tef_080_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\080.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "081",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_081_162/pokemon_tef_081_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\081.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "082",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_082_162/pokemon_tef_082_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\082.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "083",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_083_162/pokemon_tef_083_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\083.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "084",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_084_162/pokemon_tef_084_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\084.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "085",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_085_162/pokemon_tef_085_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\085.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "086",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_086_162/pokemon_tef_086_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\086.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "087",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_087_162/pokemon_tef_087_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\087.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "088",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_088_162/pokemon_tef_088_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\088.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "089",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_089_162/pokemon_tef_089_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\089.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "090",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_090_162/pokemon_tef_090_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\090.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "091",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_091_162/pokemon_tef_091_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\091.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "092",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_092_162/pokemon_tef_092_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\092.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "093",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_093_162/pokemon_tef_093_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\093.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "094",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_094_162/pokemon_tef_094_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\094.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "095",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_095_162/pokemon_tef_095_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\095.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "096",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_096_162/pokemon_tef_096_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\096.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "097",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_097_162/pokemon_tef_097_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\097.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "098",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_098_162/pokemon_tef_098_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\098.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "099",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_099_162/pokemon_tef_099_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\099.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "100",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_100_162/pokemon_tef_100_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\100.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "101",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_101_162/pokemon_tef_101_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\101.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "102",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_102_162/pokemon_tef_102_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\102.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "103",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_103_162/pokemon_tef_103_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\103.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "104",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_104_162/pokemon_tef_104_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\104.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "105",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_105_162/pokemon_tef_105_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\105.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "106",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_106_162/pokemon_tef_106_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\106.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "107",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_107_162/pokemon_tef_107_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\107.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "108",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_108_162/pokemon_tef_108_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\108.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "109",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_109_162/pokemon_tef_109_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\109.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "110",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_110_162/pokemon_tef_110_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\110.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "111",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_111_162/pokemon_tef_111_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\111.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "112",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_112_162/pokemon_tef_112_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\112.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "113",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_113_162/pokemon_tef_113_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\113.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "114",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_114_162/pokemon_tef_114_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\114.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "115",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_115_162/pokemon_tef_115_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\115.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "116",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_116_162/pokemon_tef_116_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\116.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "117",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_117_162/pokemon_tef_117_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\117.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "118",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_118_162/pokemon_tef_118_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\118.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "119",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_119_162/pokemon_tef_119_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\119.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "120",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_120_162/pokemon_tef_120_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\120.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "121",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_121_162/pokemon_tef_121_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\121.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "122",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_122_162/pokemon_tef_122_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\122.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "123",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_123_162/pokemon_tef_123_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\123.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "124",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_124_162/pokemon_tef_124_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\124.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "125",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_125_162/pokemon_tef_125_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\125.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "126",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_126_162/pokemon_tef_126_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\126.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "127",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_127_162/pokemon_tef_127_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\127.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "128",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_128_162/pokemon_tef_128_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\128.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "129",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_129_162/pokemon_tef_129_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\129.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "130",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_130_162/pokemon_tef_130_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\130.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "131",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_131_162/pokemon_tef_131_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\131.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "132",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_132_162/pokemon_tef_132_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\132.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "133",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_133_162/pokemon_tef_133_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\133.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "134",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_134_162/pokemon_tef_134_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\134.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "135",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_135_162/pokemon_tef_135_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\135.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "136",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_136_162/pokemon_tef_136_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\136.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "137",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_137_162/pokemon_tef_137_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\137.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "138",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_138_162/pokemon_tef_138_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\138.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "139",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_139_162/pokemon_tef_139_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\139.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "140",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_140_162/pokemon_tef_140_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\140.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "141",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_141_162/pokemon_tef_141_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\141.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "142",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_142_162/pokemon_tef_142_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\142.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "143",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_143_162/pokemon_tef_143_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\143.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "144",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_144_162/pokemon_tef_144_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\144.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "145",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_145_162/pokemon_tef_145_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\145.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "146",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_146_162/pokemon_tef_146_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\146.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "147",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_147_162/pokemon_tef_147_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\147.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "148",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_148_162/pokemon_tef_148_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\148.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "149",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_149_162/pokemon_tef_149_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\149.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "150",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_150_162/pokemon_tef_150_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\150.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "151",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_151_162/pokemon_tef_151_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\151.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "152",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_152_162/pokemon_tef_152_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\152.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "153",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_153_162/pokemon_tef_153_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\153.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "154",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_154_162/pokemon_tef_154_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\154.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "155",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_155_162/pokemon_tef_155_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\155.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "156",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_156_162/pokemon_tef_156_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\156.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "157",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_157_162/pokemon_tef_157_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\157.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "158",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_158_162/pokemon_tef_158_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\158.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "159",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_159_162/pokemon_tef_159_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\159.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "160",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_160_162/pokemon_tef_160_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\160.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "161",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_161_162/pokemon_tef_161_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\161.jpg",
+    "status": "exists"
+  },
+  {
+    "number": "162",
+    "source": "https://img.mypcards.com/cdn-cgi/image/f=auto,q=85/img/2/2098/pokemon_tef_162_162/pokemon_tef_162_162_pt.jpg",
+    "file": "MobileApp\\www\\cartas\\forcas-temporais\\162.jpg",
+    "status": "exists"
+  }
+]

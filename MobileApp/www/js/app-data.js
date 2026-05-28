@@ -170,6 +170,8 @@
       rare: 0,
       image: "colecao-forcas-temporais.svg",
       theme: "blue",
+      artFolder: "forcas-temporais",
+      artExtension: "jpg",
       artCount: 162,
       marketQuery: "set.id:sv5",
       cardMeta: {
@@ -257,6 +259,7 @@
       const number = String(index + 1).padStart(3, "0");
       const quantity = 0;
       const hasLocalArt = collection.artFolder && (!collection.artLocalCount || index < collection.artLocalCount);
+      const extension = collection.artExtension || "png";
       const meta = collection.cardMeta && collection.cardMeta[number] || {};
       return {
         id: `${collection.id}-${number}`,
@@ -266,7 +269,7 @@
         quantity,
         owned: quantity > 0,
         favorite: false,
-        image: meta.image || (hasLocalArt ? `cartas/${collection.artFolder}/${number}.png` : null),
+        image: meta.image || (hasLocalArt ? `cartas/${collection.artFolder}/${number}.${extension}` : null),
         variant: meta.variant || null,
         promoStamp: Boolean(meta.promoStamp),
         marketPrice: null,
